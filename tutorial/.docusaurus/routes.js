@@ -99,15 +99,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '1a1'),
+    component: ComponentCreator('/docs', 'f91'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'c69'),
+        component: ComponentCreator('/docs', '1aa'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '846'),
+            component: ComponentCreator('/docs', '54a'),
             routes: [
               {
                 path: '/docs/analise-dados-com-python/classificacao-dados-quantitativos',
@@ -274,6 +274,12 @@ export default [
               {
                 path: '/docs/coding/heranca_em_classes',
                 component: ComponentCreator('/docs/coding/heranca_em_classes', '386'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/coding/lambda',
+                component: ComponentCreator('/docs/coding/lambda', '5ce'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

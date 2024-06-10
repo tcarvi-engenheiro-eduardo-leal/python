@@ -194,17 +194,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-1a1": {
+  "/docs-f91": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-c69": {
+  "/docs-1aa": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-846": {
+  "/docs-54a": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/analise-dados-com-python/classificacao-dados-quantitativos-645": {
@@ -318,6 +318,10 @@
   "/docs/coding/heranca_em_classes-386": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-coding-heranca-em-classes-661-b6c"
+  },
+  "/docs/coding/lambda-5ce": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-lambda-242-6ae"
   },
   "/docs/coding/loops-813": {
     "__comp": "__comp---theme-doc-item-178-a40",

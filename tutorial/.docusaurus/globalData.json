@@ -116,6 +116,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "coding/lambda",
+              "path": "/docs/coding/lambda",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "coding/loops",
               "path": "/docs/coding/loops",
               "sidebar": "tutorialSidebar"
