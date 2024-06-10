@@ -1,5 +1,6 @@
 # Multiplo de número
-tte2 ok
+tte2 ok  
+OK para fluxo de trabalho  
 
 ```python
 number = 45 ok
