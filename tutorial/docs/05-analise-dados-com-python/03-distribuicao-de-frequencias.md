@@ -53,7 +53,7 @@ porcentagem = serie_segmentada_com_labels_de_intervalos.value_counts(normalize=T
 dataframeDescending = dataframe1.sort_index(ascending=False)
 ```  
 
-### Histograma  << *** PAREI AQUI *** >>
+### Histograma
 - Valores dos dados no eixo X
 - Porcentagem dos dados no eixo Y
 - Eixo Y com label Frequency

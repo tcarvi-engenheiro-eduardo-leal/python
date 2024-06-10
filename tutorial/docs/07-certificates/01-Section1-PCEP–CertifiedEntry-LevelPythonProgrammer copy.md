@@ -268,15 +268,15 @@
     - Python expressions
 - Python Variables:
     - rules governing variables
-- numeric operators: ** * / % // + –
-- string operators: * +
+- numeric operators: `** * / % // + –`
+- string operators: `* +`
 - assignment and shortcut operators
 - unary and binary operators
 - priorities and binding
-- bitwise operators: ~ & ^ | << >>
-- Boolean operators: not, and, or
+- bitwise operators: `~ & ^ | << >>`
+- Boolean operators: `not, and, or`
 - Boolean expressions
-- relational operators ( == != > >= < <= )
+- relational operators ` == != > >= < <= `
 - the accuracy of floating-point numbers
 - type casting
 ##### PCEP-30-02 1.5 – Perform Input/Output console operations

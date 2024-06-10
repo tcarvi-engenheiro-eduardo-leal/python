@@ -1,0 +1,25 @@
+{
+  "id": "analise-dados-com-python/distruibuicao-frequenciais",
+  "title": "distruibuicao-frequenciais",
+  "description": "",
+  "source": "@site/docs/05-analise-dados-com-python/05-distruibuicao-frequenciais.md",
+  "sourceDirName": "05-analise-dados-com-python",
+  "slug": "/analise-dados-com-python/distruibuicao-frequenciais",
+  "permalink": "/docs/analise-dados-com-python/distruibuicao-frequenciais",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/05-analise-dados-com-python/05-distruibuicao-frequenciais.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Classificação de dados quantitativos em intervalos de nome",
+    "permalink": "/docs/analise-dados-com-python/classificacao-dados-quantitativos"
+  },
+  "next": {
+    "title": "medidas-de-tendencia-central",
+    "permalink": "/docs/analise-dados-com-python/medidas-de-tendencia-central"
+  }
+}

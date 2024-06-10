@@ -1,0 +1,25 @@
+{
+  "id": "analise-dados-com-python/medidas-de-tendencia-central",
+  "title": "medidas-de-tendencia-central",
+  "description": "Medidas de Tendência Central",
+  "source": "@site/docs/05-analise-dados-com-python/06-medidas-de-tendencia-central.md",
+  "sourceDirName": "05-analise-dados-com-python",
+  "slug": "/analise-dados-com-python/medidas-de-tendencia-central",
+  "permalink": "/docs/analise-dados-com-python/medidas-de-tendencia-central",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/05-analise-dados-com-python/06-medidas-de-tendencia-central.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "distruibuicao-frequenciais",
+    "permalink": "/docs/analise-dados-com-python/distruibuicao-frequenciais"
+  },
+  "next": {
+    "title": "medidas-separatrizes",
+    "permalink": "/docs/analise-dados-com-python/medidas-separatrizes"
+  }
+}

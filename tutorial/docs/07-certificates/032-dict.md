@@ -14,23 +14,25 @@
 
 - Dictionaries can be created by several means:
     - a comma-separated list of key: 
-        - value pairs within braces: {'jack': 4098, 'sjoerd': 4127} or 
-        - {4098: 'jack', 4127: 'sjoerd'}
-    - a dict comprehension: {}, {x: x ** 2 for x in range(10)}
-    - the type constructor: dict(), dict([('foo', 100), ('bar', 200)]), dict(foo=100, bar=200)
+        - value pairs within braces: `{'jack': 4098, 'sjoerd': 4127}` or 
+        - `{4098: 'jack', 4127: 'sjoerd'}`
+    - a dict comprehension: `{}`, `{x: x ** 2 for x in range(10)}`
+    - the type constructor: `dict()`, `dict([('foo', 100)`, `('bar', 200)])`, `dict(foo=100, bar=200)`
         - If no positional argument is given, an empty dictionary is created.
         - If a positional argument is given and it is a mapping object, a dictionary is created with the same key-value pairs as the mapping object.
         - Otherwise, the positional argument must be an iterable object. Each item in the iterable must itself be an iterable with exactly two objects. The first object of each item becomes a key in the new dictionary, and the second object the corresponding value. If a key occurs more than once, the last value for that key becomes the corresponding value in the new dictionary.
         - If keyword arguments are given, the keyword arguments and their values are added to the dictionary created from the positional argument. If a key being added is already present, the value from the keyword argument replaces the value from the positional argument.
-- To illustrate, the following examples all return a dictionary equal to {"one": 1, "two": 2, "three": 3}:
-    - a = dict(one=1, two=2, three=3)
-    - b = {'one': 1, 'two': 2, 'three': 3}
-    - c = dict(zip(['one', 'two', 'three'], [1, 2, 3]))
-    - d = dict([('two', 2), ('one', 1), ('three', 3)])
-    - e = dict({'three': 3, 'one': 1, 'two': 2})
-    - f = dict({'one': 1, 'three': 3}, two=2)
-    - a == b == c == d == e == f
-    - True
+- To illustrate, the following examples all return a dictionary equal to `{"one": 1, "two": 2, "three": 3}`:
+```python
+a = dict(one=1, two=2, three=3)
+b = {'one': 1, 'two': 2, 'three': 3}
+c = dict(zip(['one', 'two', 'three'], [1, 2, 3]))
+d = dict([('two', 2), ('one', 1), ('three', 3)])
+e = dict({'three': 3, 'one': 1, 'two': 2})
+f = dict({'one': 1, 'three': 3}, two=2)
+a == b == c == d == e == f
+True
+```  
 - Providing keyword arguments as in the first example only works for keys that are valid Python identifiers. Otherwise, any valid keys can be used.
 - These are the operations that dictionaries support (and therefore, custom mapping types should support too):
     - list(d)

@@ -99,73 +99,73 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '6e8'),
+    component: ComponentCreator('/docs', '1a1'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '2b0'),
+        component: ComponentCreator('/docs', 'c69'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'fe9'),
+            component: ComponentCreator('/docs', '846'),
             routes: [
               {
-                path: '/docs/analise-dados_com_python/classificacao-dados-quantitativos',
-                component: ComponentCreator('/docs/analise-dados_com_python/classificacao-dados-quantitativos', '190'),
+                path: '/docs/analise-dados-com-python/classificacao-dados-quantitativos',
+                component: ComponentCreator('/docs/analise-dados-com-python/classificacao-dados-quantitativos', '645'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/analise-dados_com_python/descricoes-dos-conjuntos-de-dados',
-                component: ComponentCreator('/docs/analise-dados_com_python/descricoes-dos-conjuntos-de-dados', '9b9'),
+                path: '/docs/analise-dados-com-python/descricoes-dos-conjuntos-de-dados',
+                component: ComponentCreator('/docs/analise-dados-com-python/descricoes-dos-conjuntos-de-dados', '14d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/analise-dados_com_python/distribuicao-de-frequencias',
-                component: ComponentCreator('/docs/analise-dados_com_python/distribuicao-de-frequencias', 'dd8'),
+                path: '/docs/analise-dados-com-python/distribuicao-de-frequencias',
+                component: ComponentCreator('/docs/analise-dados-com-python/distribuicao-de-frequencias', 'e75'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/analise-dados_com_python/distruibuicao-frequenciais',
-                component: ComponentCreator('/docs/analise-dados_com_python/distruibuicao-frequenciais', '769'),
+                path: '/docs/analise-dados-com-python/distruibuicao-frequenciais',
+                component: ComponentCreator('/docs/analise-dados-com-python/distruibuicao-frequenciais', '813'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/analise-dados_com_python/leadtime',
-                component: ComponentCreator('/docs/analise-dados_com_python/leadtime', 'a97'),
+                path: '/docs/analise-dados-com-python/leadtime',
+                component: ComponentCreator('/docs/analise-dados-com-python/leadtime', '2ea'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/analise-dados_com_python/medidas-de-dispersao',
-                component: ComponentCreator('/docs/analise-dados_com_python/medidas-de-dispersao', '7c7'),
+                path: '/docs/analise-dados-com-python/medidas-de-dispersao',
+                component: ComponentCreator('/docs/analise-dados-com-python/medidas-de-dispersao', '13e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/analise-dados_com_python/medidas-de-tendencia-central',
-                component: ComponentCreator('/docs/analise-dados_com_python/medidas-de-tendencia-central', '9de'),
+                path: '/docs/analise-dados-com-python/medidas-de-tendencia-central',
+                component: ComponentCreator('/docs/analise-dados-com-python/medidas-de-tendencia-central', 'c05'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/analise-dados_com_python/medidas-separatrizes',
-                component: ComponentCreator('/docs/analise-dados_com_python/medidas-separatrizes', '11c'),
+                path: '/docs/analise-dados-com-python/medidas-separatrizes',
+                component: ComponentCreator('/docs/analise-dados-com-python/medidas-separatrizes', '226'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/analise-dados_com_python/referencias',
-                component: ComponentCreator('/docs/analise-dados_com_python/referencias', 'b75'),
+                path: '/docs/analise-dados-com-python/referencias',
+                component: ComponentCreator('/docs/analise-dados-com-python/referencias', 'a9b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/analise-dados_com_python/tipos-de-dados',
-                component: ComponentCreator('/docs/analise-dados_com_python/tipos-de-dados', 'e88'),
+                path: '/docs/analise-dados-com-python/tipos-de-dados',
+                component: ComponentCreator('/docs/analise-dados-com-python/tipos-de-dados', '325'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

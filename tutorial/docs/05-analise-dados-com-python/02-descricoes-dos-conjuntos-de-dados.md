@@ -7,13 +7,9 @@ import pandas as pd
 dados = pd.read_csv("/Users/eduardosantosleal/src/github.com/tcarvi/pythonTutorials/myvenv/Curso_de_Estatistica_Parte_2/dados.csv")
 ```  
 - `print(type(dados))`
-    - ```python
-    "<class 'pandas.core.frame.DataFrame'>"
-    ``` 
+    - pandas.core.frame.DataFrame
 - `type(dados.Renda)`
-    - ```python
-    "<class 'pandas.core.series.Series'>"
-    ``` 
+    - pandas.core.series.Series
 
 ## pandas.Series.describe()
 - `print(dados.Renda.describe())`  

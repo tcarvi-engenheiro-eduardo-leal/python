@@ -1,0 +1,25 @@
+{
+  "id": "analise-dados-com-python/referencias",
+  "title": "Referências",
+  "description": "- Matplotlib",
+  "source": "@site/docs/05-analise-dados-com-python/99-referencias.md",
+  "sourceDirName": "05-analise-dados-com-python",
+  "slug": "/analise-dados-com-python/referencias",
+  "permalink": "/docs/analise-dados-com-python/referencias",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/05-analise-dados-com-python/99-referencias.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 99,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Análise do leadtime",
+    "permalink": "/docs/analise-dados-com-python/leadtime"
+  },
+  "next": {
+    "title": "Plotagem",
+    "permalink": "/docs/category/plotagem"
+  }
+}

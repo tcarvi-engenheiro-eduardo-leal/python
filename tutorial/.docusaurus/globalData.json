@@ -11,53 +11,53 @@
           "mainDocId": "python/general-view",
           "docs": [
             {
-              "id": "analise-dados_com_python/classificacao-dados-quantitativos",
-              "path": "/docs/analise-dados_com_python/classificacao-dados-quantitativos",
+              "id": "analise-dados-com-python/classificacao-dados-quantitativos",
+              "path": "/docs/analise-dados-com-python/classificacao-dados-quantitativos",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "analise-dados_com_python/descricoes-dos-conjuntos-de-dados",
-              "path": "/docs/analise-dados_com_python/descricoes-dos-conjuntos-de-dados",
+              "id": "analise-dados-com-python/descricoes-dos-conjuntos-de-dados",
+              "path": "/docs/analise-dados-com-python/descricoes-dos-conjuntos-de-dados",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "analise-dados_com_python/distribuicao-de-frequencias",
-              "path": "/docs/analise-dados_com_python/distribuicao-de-frequencias",
+              "id": "analise-dados-com-python/distribuicao-de-frequencias",
+              "path": "/docs/analise-dados-com-python/distribuicao-de-frequencias",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "analise-dados_com_python/distruibuicao-frequenciais",
-              "path": "/docs/analise-dados_com_python/distruibuicao-frequenciais",
+              "id": "analise-dados-com-python/distruibuicao-frequenciais",
+              "path": "/docs/analise-dados-com-python/distruibuicao-frequenciais",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "analise-dados_com_python/leadtime",
-              "path": "/docs/analise-dados_com_python/leadtime",
+              "id": "analise-dados-com-python/leadtime",
+              "path": "/docs/analise-dados-com-python/leadtime",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "analise-dados_com_python/medidas-de-dispersao",
-              "path": "/docs/analise-dados_com_python/medidas-de-dispersao",
+              "id": "analise-dados-com-python/medidas-de-dispersao",
+              "path": "/docs/analise-dados-com-python/medidas-de-dispersao",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "analise-dados_com_python/medidas-de-tendencia-central",
-              "path": "/docs/analise-dados_com_python/medidas-de-tendencia-central",
+              "id": "analise-dados-com-python/medidas-de-tendencia-central",
+              "path": "/docs/analise-dados-com-python/medidas-de-tendencia-central",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "analise-dados_com_python/medidas-separatrizes",
-              "path": "/docs/analise-dados_com_python/medidas-separatrizes",
+              "id": "analise-dados-com-python/medidas-separatrizes",
+              "path": "/docs/analise-dados-com-python/medidas-separatrizes",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "analise-dados_com_python/referencias",
-              "path": "/docs/analise-dados_com_python/referencias",
+              "id": "analise-dados-com-python/referencias",
+              "path": "/docs/analise-dados-com-python/referencias",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "analise-dados_com_python/tipos-de-dados",
-              "path": "/docs/analise-dados_com_python/tipos-de-dados",
+              "id": "analise-dados-com-python/tipos-de-dados",
+              "path": "/docs/analise-dados-com-python/tipos-de-dados",
               "sidebar": "tutorialSidebar"
             },
             {
