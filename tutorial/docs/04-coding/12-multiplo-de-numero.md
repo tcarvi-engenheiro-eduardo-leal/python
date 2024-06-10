@@ -1,5 +1,5 @@
 # Multiplo de número
-tte2
+tte2 ok
 
 ```python
 number = 45
