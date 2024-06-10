@@ -99,15 +99,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'edb'),
+    component: ComponentCreator('/docs', '258'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '5a3'),
+        component: ComponentCreator('/docs', '7fe'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'b84'),
+            component: ComponentCreator('/docs', '363'),
             routes: [
               {
                 path: '/docs/analise-dados-com-python/classificacao-dados-quantitativos',
@@ -292,6 +292,12 @@ export default [
               {
                 path: '/docs/coding/map',
                 component: ComponentCreator('/docs/coding/map', 'f6c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/coding/multiplo-de-numero',
+                component: ComponentCreator('/docs/coding/multiplo-de-numero', 'c2a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

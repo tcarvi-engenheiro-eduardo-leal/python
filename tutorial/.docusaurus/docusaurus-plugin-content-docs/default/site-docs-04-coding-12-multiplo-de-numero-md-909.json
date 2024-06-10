@@ -1,0 +1,25 @@
+{
+  "id": "coding/multiplo-de-numero",
+  "title": "Multiplo de número",
+  "description": "",
+  "source": "@site/docs/04-coding/12-multiplo-de-numero.md",
+  "sourceDirName": "04-coding",
+  "slug": "/coding/multiplo-de-numero",
+  "permalink": "/docs/coding/multiplo-de-numero",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04-coding/12-multiplo-de-numero.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "map",
+    "permalink": "/docs/coding/map"
+  },
+  "next": {
+    "title": "Análise de dados com Python",
+    "permalink": "/docs/category/análise-de-dados-com-python"
+  }
+}

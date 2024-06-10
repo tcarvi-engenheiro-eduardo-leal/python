@@ -131,6 +131,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "coding/multiplo-de-numero",
+              "path": "/docs/coding/multiplo-de-numero",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "coding/operations_on_numbers",
               "path": "/docs/coding/operations_on_numbers",
               "sidebar": "tutorialSidebar"
