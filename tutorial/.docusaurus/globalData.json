@@ -126,6 +126,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "coding/map",
+              "path": "/docs/coding/map",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "coding/operations_on_numbers",
               "path": "/docs/coding/operations_on_numbers",
               "sidebar": "tutorialSidebar"

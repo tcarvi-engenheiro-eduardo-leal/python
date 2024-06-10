@@ -194,17 +194,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-f91": {
+  "/docs-edb": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-1aa": {
+  "/docs-5a3": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-54a": {
+  "/docs-b84": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/analise-dados-com-python/classificacao-dados-quantitativos-645": {
@@ -326,6 +326,10 @@
   "/docs/coding/loops-813": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-coding-loopsc-31-deb"
+  },
+  "/docs/coding/map-f6c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-map-6-df-bf4"
   },
   "/docs/coding/operations_on_numbers-b64": {
     "__comp": "__comp---theme-doc-item-178-a40",
