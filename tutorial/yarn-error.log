@@ -1,0 +1,73 @@
+Arguments: 
+  /opt/homebrew/Cellar/node@20/20.14.0/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /opt/homebrew/opt/node@20/bin:/Users/eduardosantosleal/src/apache-maven-3.8.6/bin/:/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12/bin:/opt/homebrew/opt/python@3.12/libexec/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/go/bin:/opt/homebrew/opt/node@20/bin:/Users/eduardosantosleal/src/apache-maven-3.8.6/bin/:/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12/bin:/opt/homebrew/opt/python@3.12/libexec/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.14.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+
+npm manifest: 
+  {
+    "name": "tutorial",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "docusaurus": "docusaurus",
+      "start": "docusaurus start",
+      "build": "docusaurus build",
+      "swizzle": "docusaurus swizzle",
+      "deploy": "docusaurus deploy",
+      "clear": "docusaurus clear",
+      "serve": "docusaurus serve",
+      "write-translations": "docusaurus write-translations",
+      "write-heading-ids": "docusaurus write-heading-ids",
+      "typecheck": "tsc"
+    },
+    "dependencies": {
+      "@docusaurus/core": "3.4.0",
+      "@docusaurus/preset-classic": "3.4.0",
+      "@mdx-js/react": "^3.0.0",
+      "clsx": "^2.0.0",
+      "prism-react-renderer": "^2.3.0",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+      "@docusaurus/module-type-aliases": "3.4.0",
+      "@docusaurus/tsconfig": "3.4.0",
+      "@docusaurus/types": "3.4.0",
+      "typescript": "~5.2.2"
+    },
+    "browserslist": {
+      "production": [
+        ">0.5%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 3 chrome version",
+        "last 3 firefox version",
+        "last 5 safari version"
+      ]
+    },
+    "engines": {
+      "node": ">=18.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,25 @@
+{
+  "id": "instalacao_e_execucao/install-blender-bpy",
+  "title": "Install BPY (blender)",
+  "description": "Instalação da dependência bpy de Blender",
+  "source": "@site/docs/02-instalacao_e_execucao/06-install-blender-bpy.md",
+  "sourceDirName": "02-instalacao_e_execucao",
+  "slug": "/instalacao_e_execucao/install-blender-bpy",
+  "permalink": "/docs/instalacao_e_execucao/install-blender-bpy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02-instalacao_e_execucao/06-install-blender-bpy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Python Program Execution",
+    "permalink": "/docs/instalacao_e_execucao/execution"
+  },
+  "next": {
+    "title": "Python Program Execution with modulos but without classes",
+    "permalink": "/docs/instalacao_e_execucao/execution-with-modules_without_classes"
+  }
+}

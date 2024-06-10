@@ -1,0 +1,25 @@
+{
+  "id": "data-types/fractions_fraction",
+  "title": "fractions.Fraction",
+  "description": "- The standard library includes the additional numeric type fractions.Fraction, for rationals.",
+  "source": "@site/docs/03-data-types/04-fractions_fraction.md",
+  "sourceDirName": "03-data-types",
+  "slug": "/data-types/fractions_fraction",
+  "permalink": "/docs/data-types/fractions_fraction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/03-data-types/04-fractions_fraction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "complex (complex number)",
+    "permalink": "/docs/data-types/complex"
+  },
+  "next": {
+    "title": "decimal.Decimal",
+    "permalink": "/docs/data-types/decimal_decimal"
+  }
+}

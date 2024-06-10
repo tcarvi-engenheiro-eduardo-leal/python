@@ -1,0 +1,25 @@
+{
+  "id": "plotagem/bar",
+  "title": "bar",
+  "description": "Barras usando matplotlib",
+  "source": "@site/docs/05-plotagem/01-bar.md",
+  "sourceDirName": "05-plotagem",
+  "slug": "/plotagem/bar",
+  "permalink": "/docs/plotagem/bar",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/05-plotagem/01-bar.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Plotagem",
+    "permalink": "/docs/category/plotagem"
+  },
+  "next": {
+    "title": "Numpy",
+    "permalink": "/docs/category/numpy"
+  }
+}

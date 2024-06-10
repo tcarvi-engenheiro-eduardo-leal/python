@@ -1,0 +1,25 @@
+{
+  "id": "data-types/decimal_decimal",
+  "title": "decimal.Decimal",
+  "description": "- The standard library includes the additional numeric type decimal.Decimal, for floating-point numbers with user-definable precision.",
+  "source": "@site/docs/03-data-types/05-decimal_decimal.md",
+  "sourceDirName": "03-data-types",
+  "slug": "/data-types/decimal_decimal",
+  "permalink": "/docs/data-types/decimal_decimal",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/03-data-types/05-decimal_decimal.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "fractions.Fraction",
+    "permalink": "/docs/data-types/fractions_fraction"
+  },
+  "next": {
+    "title": "bool",
+    "permalink": "/docs/data-types/bool"
+  }
+}

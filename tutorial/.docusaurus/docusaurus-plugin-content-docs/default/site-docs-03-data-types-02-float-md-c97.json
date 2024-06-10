@@ -1,0 +1,25 @@
+{
+  "id": "data-types/float",
+  "title": "float (floating-point number)",
+  "description": "- numerical type",
+  "source": "@site/docs/03-data-types/02-float.md",
+  "sourceDirName": "03-data-types",
+  "slug": "/data-types/float",
+  "permalink": "/docs/data-types/float",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/03-data-types/02-float.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "int (integer)",
+    "permalink": "/docs/data-types/int"
+  },
+  "next": {
+    "title": "complex (complex number)",
+    "permalink": "/docs/data-types/complex"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "certificates/Section3-PCEP–CertifiedEntry-LevelPythonProgrammer copy 3",
+  "title": "Section 3 - PCEP™ – Certified Entry-Level Python Programmer",
+  "description": "Section 3: Data Collections – Tuples, Dictionaries, Lists, and Strings",
+  "source": "@site/docs/07-certificates/03-Section3-PCEP–CertifiedEntry-LevelPythonProgrammer copy 3.md",
+  "sourceDirName": "07-certificates",
+  "slug": "/certificates/Section3-PCEP–CertifiedEntry-LevelPythonProgrammer copy 3",
+  "permalink": "/docs/certificates/Section3-PCEP–CertifiedEntry-LevelPythonProgrammer copy 3",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/07-certificates/03-Section3-PCEP–CertifiedEntry-LevelPythonProgrammer copy 3.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Section 2 - PCEP™ – Certified Entry-Level Python Programmer",
+    "permalink": "/docs/certificates/Section2-PCEP–CertifiedEntry-LevelPythonProgrammer"
+  },
+  "next": {
+    "title": "Section 4 - PCEP™ – Certified Entry-Level Python Programmer",
+    "permalink": "/docs/certificates/Section4-PCEP–CertifiedEntry-LevelPythonProgrammer copy 2"
+  }
+}

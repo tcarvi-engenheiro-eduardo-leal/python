@@ -1,0 +1,393 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "python/general-view",
+          "docs": [
+            {
+              "id": "analise-dados_com_python/classificacao-dados-quantitativos",
+              "path": "/docs/analise-dados_com_python/classificacao-dados-quantitativos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "analise-dados_com_python/descricoes-dos-conjuntos-de-dados",
+              "path": "/docs/analise-dados_com_python/descricoes-dos-conjuntos-de-dados",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "analise-dados_com_python/distribuicao-de-frequencias",
+              "path": "/docs/analise-dados_com_python/distribuicao-de-frequencias",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "analise-dados_com_python/distruibuicao-frequenciais",
+              "path": "/docs/analise-dados_com_python/distruibuicao-frequenciais",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "analise-dados_com_python/leadtime",
+              "path": "/docs/analise-dados_com_python/leadtime",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "analise-dados_com_python/medidas-de-dispersao",
+              "path": "/docs/analise-dados_com_python/medidas-de-dispersao",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "analise-dados_com_python/medidas-de-tendencia-central",
+              "path": "/docs/analise-dados_com_python/medidas-de-tendencia-central",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "analise-dados_com_python/medidas-separatrizes",
+              "path": "/docs/analise-dados_com_python/medidas-separatrizes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "analise-dados_com_python/referencias",
+              "path": "/docs/analise-dados_com_python/referencias",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "analise-dados_com_python/tipos-de-dados",
+              "path": "/docs/analise-dados_com_python/tipos-de-dados",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "certificates/dict",
+              "path": "/docs/certificates/dict",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "certificates/Introduction-PCEP–CertifiedEntry-LevelPythonProgrammer",
+              "path": "/docs/certificates/Introduction-PCEP–CertifiedEntry-LevelPythonProgrammer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "certificates/list",
+              "path": "/docs/certificates/list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "certificates/Section1-PCEP–CertifiedEntry-LevelPythonProgrammer copy",
+              "path": "/docs/certificates/Section1-PCEP–CertifiedEntry-LevelPythonProgrammer copy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "certificates/Section2-PCEP–CertifiedEntry-LevelPythonProgrammer",
+              "path": "/docs/certificates/Section2-PCEP–CertifiedEntry-LevelPythonProgrammer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "certificates/Section3-PCEP–CertifiedEntry-LevelPythonProgrammer copy 3",
+              "path": "/docs/certificates/Section3-PCEP–CertifiedEntry-LevelPythonProgrammer copy 3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "certificates/Section4-PCEP–CertifiedEntry-LevelPythonProgrammer copy 2",
+              "path": "/docs/certificates/Section4-PCEP–CertifiedEntry-LevelPythonProgrammer copy 2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "coding/bitwise _operations_on_ints",
+              "path": "/docs/coding/bitwise _operations_on_ints",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "coding/classe_e_metodo_abstrato",
+              "path": "/docs/coding/classe_e_metodo_abstrato",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "coding/comparacao_de_instancias",
+              "path": "/docs/coding/comparacao_de_instancias",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "coding/heranca_em_classes",
+              "path": "/docs/coding/heranca_em_classes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "coding/loops",
+              "path": "/docs/coding/loops",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "coding/operations_on_numbers",
+              "path": "/docs/coding/operations_on_numbers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "coding/ordenacao",
+              "path": "/docs/coding/ordenacao",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "coding/polimorfism",
+              "path": "/docs/coding/polimorfism",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "coding/print_de_classes",
+              "path": "/docs/coding/print_de_classes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "coding/unpacking",
+              "path": "/docs/coding/unpacking",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/bool",
+              "path": "/docs/data-types/bool",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/bytearray",
+              "path": "/docs/data-types/bytearray",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/bytes",
+              "path": "/docs/data-types/bytes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/classes",
+              "path": "/docs/data-types/classes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/complex",
+              "path": "/docs/data-types/complex",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/decimal_decimal",
+              "path": "/docs/data-types/decimal_decimal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/dict-defaultdict",
+              "path": "/docs/data-types/dict-defaultdict",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/Exceptions",
+              "path": "/docs/data-types/Exceptions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/float",
+              "path": "/docs/data-types/float",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/fractions_fraction",
+              "path": "/docs/data-types/fractions_fraction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/Generator-type",
+              "path": "/docs/data-types/Generator-type",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/Instances",
+              "path": "/docs/data-types/Instances",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/int",
+              "path": "/docs/data-types/int",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/Iterator-type",
+              "path": "/docs/data-types/Iterator-type",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/list",
+              "path": "/docs/data-types/list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/operations_on_dict_defafaultdict",
+              "path": "/docs/data-types/operations_on_dict_defafaultdict",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/operations_on_lists",
+              "path": "/docs/data-types/operations_on_lists",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/operations_on_ranges",
+              "path": "/docs/data-types/operations_on_ranges",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/operations_on_sets_and_frozensets",
+              "path": "/docs/data-types/operations_on_sets_and_frozensets",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/operations_on_tuples",
+              "path": "/docs/data-types/operations_on_tuples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/range",
+              "path": "/docs/data-types/range",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/set-frozenset",
+              "path": "/docs/data-types/set-frozenset",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/str",
+              "path": "/docs/data-types/str",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/tuple",
+              "path": "/docs/data-types/tuple",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-types/type-annotation-type",
+              "path": "/docs/data-types/type-annotation-type",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "instalacao_e_execucao/execution",
+              "path": "/docs/instalacao_e_execucao/execution",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "instalacao_e_execucao/execution-with-modules_and_classes",
+              "path": "/docs/instalacao_e_execucao/execution-with-modules_and_classes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "instalacao_e_execucao/execution-with-modules_without_classes",
+              "path": "/docs/instalacao_e_execucao/execution-with-modules_without_classes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "instalacao_e_execucao/instalacao-de-requirements-txt",
+              "path": "/docs/instalacao_e_execucao/instalacao-de-requirements-txt",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "instalacao_e_execucao/install-blender-bpy",
+              "path": "/docs/instalacao_e_execucao/install-blender-bpy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "instalacao_e_execucao/install-python",
+              "path": "/docs/instalacao_e_execucao/install-python",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "instalacao_e_execucao/python-environment-variables",
+              "path": "/docs/instalacao_e_execucao/python-environment-variables",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "instalacao_e_execucao/style_code",
+              "path": "/docs/instalacao_e_execucao/style_code",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "instalacao_e_execucao/verificacao-instalacao-python",
+              "path": "/docs/instalacao_e_execucao/verificacao-instalacao-python",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "numpy/general_view",
+              "path": "/docs/numpy/general_view",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "numpy/referencias",
+              "path": "/docs/numpy/referencias",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plotagem/bar",
+              "path": "/docs/plotagem/bar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/general-view",
+              "path": "/docs/python/general-view",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "python/referencias_internas_built_in",
+              "path": "/docs/python/referencias_internas_built_in",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/instalação-e-execução",
+              "path": "/docs/category/instalação-e-execução",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/data-types",
+              "path": "/docs/category/data-types",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/codificando",
+              "path": "/docs/category/codificando",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/análise-de-dados-com-python",
+              "path": "/docs/category/análise-de-dados-com-python",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/plotagem",
+              "path": "/docs/category/plotagem",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/numpy",
+              "path": "/docs/category/numpy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/certificações",
+              "path": "/docs/category/certificações",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/python/general-view",
+                "label": "python/general-view"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

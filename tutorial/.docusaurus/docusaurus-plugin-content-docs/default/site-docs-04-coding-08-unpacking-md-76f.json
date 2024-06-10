@@ -1,0 +1,25 @@
+{
+  "id": "coding/unpacking",
+  "title": "Unpacking",
+  "description": "Unpacking recebendo todos os campos",
+  "source": "@site/docs/04-coding/08-unpacking.md",
+  "sourceDirName": "04-coding",
+  "slug": "/coding/unpacking",
+  "permalink": "/docs/coding/unpacking",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/04-coding/08-unpacking.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ordenação",
+    "permalink": "/docs/coding/ordenacao"
+  },
+  "next": {
+    "title": "Operations on numerical types",
+    "permalink": "/docs/coding/operations_on_numbers"
+  }
+}

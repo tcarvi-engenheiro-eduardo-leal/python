@@ -1,0 +1,509 @@
+{
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/blog-b2f": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blog-871-381"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "__props": "__props---blogc-15-573"
+  },
+  "/blog/archive-182": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "__props": "__props---blog-archivef-81-229"
+  },
+  "/blog/first-blog-post-89a": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-first-blog-postace-ee5"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-first-blog-poste-27-4a1"
+  },
+  "/blog/long-blog-post-9ad": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-first-blog-postace-ee5"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-long-blog-post-736-bc7"
+  },
+  "/blog/mdx-blog-post-e9f": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-first-blog-postace-ee5"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-mdx-blog-post-593-37b"
+  },
+  "/blog/tags-287": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-tags-3-a-2-fa2"
+  },
+  "/blog/tags/docusaurus-704": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blog-871-381"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "__props": "__props---blog-tags-docusaurus-321-832"
+  },
+  "/blog/tags/facebook-858": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      }
+    ],
+    "__props": "__props---blog-tags-facebooke-5-a-514"
+  },
+  "/blog/tags/hello-299": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blog-871-381"
+      }
+    ],
+    "__props": "__props---blog-tags-hellof-82-2fd"
+  },
+  "/blog/tags/hola-00d": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "__props": "__props---blog-tags-hola-5-e-9-9a3"
+  },
+  "/blog/welcome-d2b": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-first-blog-postace-ee5"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-welcomed-9-f-ffb"
+  },
+  "/markdown-page-3d7": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "content": "content---markdown-page-393-028"
+  },
+  "/docs-6e8": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-2b0": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-fe9": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/analise-dados_com_python/classificacao-dados-quantitativos-190": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-analise-dados-com-python-classificacao-dados-quantitativoscdc-03a"
+  },
+  "/docs/analise-dados_com_python/descricoes-dos-conjuntos-de-dados-9b9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-analise-dados-com-python-descricoes-dos-conjuntos-de-dadosa-8-b-7aa"
+  },
+  "/docs/analise-dados_com_python/distribuicao-de-frequencias-dd8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-analise-dados-com-python-distribuicao-de-frequenciasb-84-7b6"
+  },
+  "/docs/analise-dados_com_python/distruibuicao-frequenciais-769": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-analise-dados-com-python-distruibuicao-frequenciaise-67-d95"
+  },
+  "/docs/analise-dados_com_python/leadtime-a97": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-analise-dados-com-python-leadtimed-07-fde"
+  },
+  "/docs/analise-dados_com_python/medidas-de-dispersao-7c7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-analise-dados-com-python-medidas-de-dispersao-39-d-805"
+  },
+  "/docs/analise-dados_com_python/medidas-de-tendencia-central-9de": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-analise-dados-com-python-medidas-de-tendencia-centralab-6-557"
+  },
+  "/docs/analise-dados_com_python/medidas-separatrizes-11c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-analise-dados-com-python-medidas-separatrizes-738-1e0"
+  },
+  "/docs/analise-dados_com_python/referencias-b75": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-analise-dados-com-python-referenciasbb-7-583"
+  },
+  "/docs/analise-dados_com_python/tipos-de-dados-e88": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-analise-dados-com-python-tipos-de-dados-7-c-1-c2a"
+  },
+  "/docs/category/análise-de-dados-com-python-93c": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-analise-de-dados-com-pythondbf-8d7"
+  },
+  "/docs/category/certificações-9de": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-certificacoesbdc-36b"
+  },
+  "/docs/category/codificando-94c": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-codificandobf-9-c80"
+  },
+  "/docs/category/data-types-0fa": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-data-typesac-4-b8f"
+  },
+  "/docs/category/instalação-e-execução-b25": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-instalacao-e-execucao-557-612"
+  },
+  "/docs/category/numpy-c03": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-numpy-52-c-f8a"
+  },
+  "/docs/category/plotagem-6b7": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-plotagemf-16-711"
+  },
+  "/docs/certificates/dict-522": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-certificates-dictb-25-a80"
+  },
+  "/docs/certificates/Introduction-PCEP–CertifiedEntry-LevelPythonProgrammer-2bb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-certificates-introduction-pcep-certified-entry-level-python-programmere-4-d-2dd"
+  },
+  "/docs/certificates/list-648": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-certificates-listd-46-247"
+  },
+  "/docs/certificates/Section1-PCEP–CertifiedEntry-LevelPythonProgrammer copy-242": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-certificates-section-1-pcep-certified-entry-level-python-programmer-copy-1-bb-04f"
+  },
+  "/docs/certificates/Section2-PCEP–CertifiedEntry-LevelPythonProgrammer-c99": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-certificates-section-2-pcep-certified-entry-level-python-programmere-71-6f0"
+  },
+  "/docs/certificates/Section3-PCEP–CertifiedEntry-LevelPythonProgrammer copy 3-6da": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-certificates-section-3-pcep-certified-entry-level-python-programmer-copy-326-b-a84"
+  },
+  "/docs/certificates/Section4-PCEP–CertifiedEntry-LevelPythonProgrammer copy 2-893": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-certificates-section-4-pcep-certified-entry-level-python-programmer-copy-2008-407"
+  },
+  "/docs/coding/bitwise _operations_on_ints-05f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-bitwise-operations-on-intsb-6-a-413"
+  },
+  "/docs/coding/classe_e_metodo_abstrato-a6e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-classe-e-metodo-abstrato-881-58b"
+  },
+  "/docs/coding/comparacao_de_instancias-1d4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-comparacao-de-instancias-7-e-6-8f3"
+  },
+  "/docs/coding/heranca_em_classes-386": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-heranca-em-classes-661-b6c"
+  },
+  "/docs/coding/loops-813": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-loopsc-31-deb"
+  },
+  "/docs/coding/operations_on_numbers-b64": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-operations-on-numbersf-7-a-5d7"
+  },
+  "/docs/coding/ordenacao-179": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-ordenacao-567-386"
+  },
+  "/docs/coding/polimorfism-915": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-polimorfism-778-328"
+  },
+  "/docs/coding/print_de_classes-68a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-print-de-classes-9-d-7-650"
+  },
+  "/docs/coding/unpacking-a92": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-coding-unpacking-76-f-f3a"
+  },
+  "/docs/data-types/bool-201": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-bool-9-ce-09b"
+  },
+  "/docs/data-types/bytearray-422": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-bytearrayd-38-c77"
+  },
+  "/docs/data-types/bytes-a9d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-bytes-9-cc-1dd"
+  },
+  "/docs/data-types/classes-83c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-classes-95-d-514"
+  },
+  "/docs/data-types/complex-980": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-complex-8-c-7-a74"
+  },
+  "/docs/data-types/decimal_decimal-b82": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-decimal-decimald-1-a-dfa"
+  },
+  "/docs/data-types/dict-defaultdict-9c6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-dict-defaultdict-54-f-875"
+  },
+  "/docs/data-types/Exceptions-2f1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-exceptions-2-bc-95e"
+  },
+  "/docs/data-types/float-b83": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-floatc-97-b9d"
+  },
+  "/docs/data-types/fractions_fraction-e2c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-fractions-fraction-437-e73"
+  },
+  "/docs/data-types/Generator-type-009": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-generator-typedc-2-0dd"
+  },
+  "/docs/data-types/Instances-d20": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-instances-583-d52"
+  },
+  "/docs/data-types/int-9a6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-int-3-ae-f80"
+  },
+  "/docs/data-types/Iterator-type-d62": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-iterator-typec-4-f-0eb"
+  },
+  "/docs/data-types/list-328": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-list-6-fa-9e4"
+  },
+  "/docs/data-types/operations_on_dict_defafaultdict-c60": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-operations-on-dict-defafaultdict-4-b-3-ebb"
+  },
+  "/docs/data-types/operations_on_lists-ebb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-operations-on-listsf-2-a-886"
+  },
+  "/docs/data-types/operations_on_ranges-26a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-operations-on-ranges-0-d-0-976"
+  },
+  "/docs/data-types/operations_on_sets_and_frozensets-f77": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-operations-on-sets-and-frozensets-3-be-841"
+  },
+  "/docs/data-types/operations_on_tuples-748": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-operations-on-tuples-60-e-1a4"
+  },
+  "/docs/data-types/range-22f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-rangebe-5-96f"
+  },
+  "/docs/data-types/set-frozenset-695": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-set-frozensetc-30-e45"
+  },
+  "/docs/data-types/str-7df": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-str-08-b-e24"
+  },
+  "/docs/data-types/tuple-4ba": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-tuple-9-ab-927"
+  },
+  "/docs/data-types/type-annotation-type-aba": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-data-types-type-annotation-typea-57-b81"
+  },
+  "/docs/instalacao_e_execucao/execution-01b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-instalacao-e-execucao-executionb-05-3a5"
+  },
+  "/docs/instalacao_e_execucao/execution-with-modules_and_classes-646": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-instalacao-e-execucao-execution-with-modules-and-classes-577-6c6"
+  },
+  "/docs/instalacao_e_execucao/execution-with-modules_without_classes-29c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-instalacao-e-execucao-execution-with-modules-without-classes-389-71e"
+  },
+  "/docs/instalacao_e_execucao/instalacao-de-requirements-txt-a23": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-instalacao-e-execucao-instalacao-de-requirements-txtb-0-a-c33"
+  },
+  "/docs/instalacao_e_execucao/install-blender-bpy-94f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-instalacao-e-execucao-install-blender-bpy-988-139"
+  },
+  "/docs/instalacao_e_execucao/install-python-bb1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-instalacao-e-execucao-install-pythona-81-0cc"
+  },
+  "/docs/instalacao_e_execucao/python-environment-variables-26c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-instalacao-e-execucao-python-environment-variables-482-437"
+  },
+  "/docs/instalacao_e_execucao/style_code-92c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-instalacao-e-execucao-style-codecac-294"
+  },
+  "/docs/instalacao_e_execucao/verificacao-instalacao-python-f79": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-instalacao-e-execucao-verificacao-instalacao-pythonb-16-cef"
+  },
+  "/docs/numpy/general_view-f25": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-numpy-general-view-618-fcd"
+  },
+  "/docs/numpy/referencias-5ab": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-numpy-referencias-5-ed-b45"
+  },
+  "/docs/plotagem/bar-561": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-plotagem-bar-9-c-1-359"
+  },
+  "/docs/python/general-view-b8a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-python-general-viewb-2-b-9db"
+  },
+  "/docs/python/referencias_internas_built_in-e8b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-python-referencias-internas-built-in-856-061"
+  },
+  "/-e5f": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}

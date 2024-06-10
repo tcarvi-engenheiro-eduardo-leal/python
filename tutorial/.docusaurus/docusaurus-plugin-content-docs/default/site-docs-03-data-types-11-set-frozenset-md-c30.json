@@ -1,0 +1,25 @@
+{
+  "id": "data-types/set-frozenset",
+  "title": "set and frozenset",
+  "description": "Constructor",
+  "source": "@site/docs/03-data-types/11-set-frozenset.md",
+  "sourceDirName": "03-data-types",
+  "slug": "/data-types/set-frozenset",
+  "permalink": "/docs/data-types/set-frozenset",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/03-data-types/11-set-frozenset.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Operations on tuples",
+    "permalink": "/docs/data-types/operations_on_tuples"
+  },
+  "next": {
+    "title": "Operations on sets and frozensets",
+    "permalink": "/docs/data-types/operations_on_sets_and_frozensets"
+  }
+}
