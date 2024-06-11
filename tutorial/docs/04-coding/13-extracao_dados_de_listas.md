@@ -10,7 +10,7 @@ resultado_desejado = {dado1[i]: dado2[i] for i in range(len(dado1))}
 ```python
 dado1 = ["key1", "key2", "key3"]
 dado2 = [4, 8, 12]
-resultado_desejado = {dado1[i]: dado2[i] for i in range(len(dado1)) if valor > 7}
+resultado_desejado = {dado1[i]: dado2[i] for i in range(len(dado1)) if dado2[i] > 7}
 ```
 
 ## Extração com dict comprehension e zip()
@@ -24,5 +24,5 @@ resultado_desejado = {key: valor for key, valor in zip(dado1, dado2)}
 ```python
 dado1 = ["key1", "key2", "key3"]
 dado2 = [4, 8, 12]
-resultado_desejado = {key: valor for key, valor in zip(dado1, dado2) if dado2 > 7}
+resultado_desejado = {key: valor for key, valor in zip(dado1, dado2) if valor > 7}
 ```
