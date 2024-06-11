@@ -1,28 +1,59 @@
-# Extração de dados de listas
-## Extração com dict comprehension e range()
+# Extração de dados  listas
+
+## Extração com list comprehension, range() e zip()
+- Com list comprehension e range()
+```python
+dado1 = ["key1", "key2", "key3"]
+dado2 = [4, 8, 12]
+resultado_desejado = [dado1[i] + ":" + dado2[i] for i in range(len(dado1))]
+```
+
+- Com list comprehension, range() e condition
+```python
+dado1 = ["key1", "key2", "key3"]
+dado2 = [4, 8, 12]
+resultado_desejado = [dado1[i] + ":" + dado2[i] for i in range(len(dado1)) if dado2[i] > 7]
+```
+
+- Com list comprehension e zip()
+```python
+dado1 = ["key1", "key2", "key3"]
+dado2 = [4, 8, 12]
+resultado_desejado = [[key: valor] for key, valor in zip(dado1, dado2)]
+```
+
+- Com list comprehension, zip() e condition
+```python
+dado1 = ["key1", "key2", "key3"]
+dado2 = [4, 8, 12]
+resultado_desejado = [[key: valor] for key, valor in zip(dado1, dado2) if valor > 7]
+```  
+
+## Extração com dict comprehension, range() e zip()
+- Com dict comprehension e range()
 ```python
 dado1 = ["key1", "key2", "key3"]
 dado2 = [4, 8, 12]
 resultado_desejado = {dado1[i]: dado2[i] for i in range(len(dado1))}
 ```
 
-## Extração com dict comprehension, range() e filter
+- Com dict comprehension, range() e condition
 ```python
 dado1 = ["key1", "key2", "key3"]
 dado2 = [4, 8, 12]
 resultado_desejado = {dado1[i]: dado2[i] for i in range(len(dado1)) if dado2[i] > 7}
 ```
 
-## Extração com dict comprehension e zip()
+- Com dict comprehension e zip()
 ```python
 dado1 = ["key1", "key2", "key3"]
 dado2 = [4, 8, 12]
 resultado_desejado = {key: valor for key, valor in zip(dado1, dado2)}
 ```
 
-## Extração com dict comprehension, zip() e filter
+- Com dict comprehension, zip() e condition
 ```python
 dado1 = ["key1", "key2", "key3"]
 dado2 = [4, 8, 12]
 resultado_desejado = {key: valor for key, valor in zip(dado1, dado2) if valor > 7}
-```
+```  
