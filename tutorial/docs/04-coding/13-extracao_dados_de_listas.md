@@ -1,4 +1,4 @@
-# Extração de dados  listas
+# Extração de dados armazenados em listas
 
 ## Extração com list comprehension, range() e zip()
 - Com list comprehension e range()
