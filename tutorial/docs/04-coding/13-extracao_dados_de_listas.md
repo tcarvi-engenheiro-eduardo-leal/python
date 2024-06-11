@@ -1,5 +1,5 @@
 # Extração de dados de listas
-## Extração com dict compreension and range
+## Extração com dict comprehension e range()
 ```python
 dado1 = {"key1", "key2", "key3"}
 dado2 = {4, 8, 12}
