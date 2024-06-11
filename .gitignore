@@ -2,3 +2,4 @@
 tutorial/node_modules
 tutorial/package-lock.json
 myvenv/
+tutorial/.docusaurus/
