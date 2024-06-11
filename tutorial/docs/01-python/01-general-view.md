@@ -10,7 +10,10 @@
     
 ## Community main uses
 - **Machine Learning**:
-    - **scikit-learn** (tools for predictive data analysis)
+    - **TensorFlow** (tools for predictive data analysis)
+    - **PyTorch** (tools for predictive data analysis)
+    - **Keras** (tools for predictive data analysis)
+    - **Scikit-learn** (tools for predictive data analysis)
 - **Scientific and numeric computing**:
     - **SciPy** (a collection of packages for mathematics, science, and engineering)
     - **NumPy** (a collection of packages for mathematics, science, and engineering)
