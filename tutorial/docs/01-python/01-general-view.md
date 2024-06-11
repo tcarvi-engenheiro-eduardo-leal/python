@@ -9,6 +9,8 @@
     - Defining **rich or anemic domain data objects**.
     
 ## Community main uses
+- **Machine Learning**:
+    - **scikit-learn** (tools for predictive data analysis)
 - **Scientific and numeric computing**:
     - **SciPy** (a collection of packages for mathematics, science, and engineering)
     - **NumPy** (a collection of packages for mathematics, science, and engineering)
