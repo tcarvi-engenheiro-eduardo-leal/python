@@ -1,8 +1,8 @@
 # Extração de dados de listas
 ## Extração com dict comprehension e range()
 ```python
-dado1 = {"key1", "key2", "key3"}
-dado2 = {4, 8, 12}
+dado1 = ["key1", "key2", "key3"]
+dado2 = [4, 8, 12]
 resultado_desejado = {dado1[i]: dado2[i] for i in range(len(dado1))}
 ```
 
@@ -15,8 +15,8 @@ resultado_desejado = {dado1[i]: dado2[i] for i in range(len(dado1)) if dado2[i] 
 
 ## Extração com dict comprehension e zip()
 ```python
-dado1 = {"key1", "key2", "key3"}
-dado2 = {4, 8, 12}
+dado1 = ["key1", "key2", "key3"]
+dado2 = [4, 8, 12]
 resultado_desejado = {key: valor for key, valor in zip(dado1, dado2)}
 ```
 
