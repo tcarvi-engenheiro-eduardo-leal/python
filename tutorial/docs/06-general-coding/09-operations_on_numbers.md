@@ -10,16 +10,17 @@ result = x - y
 # Multiplication
 result = x * y
 
-# Division
+# Division (divisão com resultado no conjunto de Reais)
 result = x / y
 
-# integer division (floored quotient)
+# integer division (floored quotient) (divisão com resultado inteiro)
 result = x // y
 # For operands of type int, the result has type int.
 # For operands of type float, the result has type float.
 # The result is always rounded towards minus infinity: 1//2 is 0, (-1)//2 is -1, 1//(-2) is -1, and (-1)//(-2) is 0.
 
-# Remainder of x and y division
+# Remainder of x divided by y
+# Módulo operator %
 result = x % y
 
 # x negated
