@@ -8,6 +8,10 @@
 - Performant
     - The core of NumPy is well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.
     - NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant.
+- Executa operações matemáticas complexas com objetos do tipo array, de forma eficiente e otimizada.
+- Trabalha com arrays multidimensionais, além de seus objetos derivados: matrizes, sequências, ...
+- Possui grande variedade de operações com arrays, incluindo operações lógicas, manipulações de formato, ordenação e seleção, ferramentas de estatística e cálculo.
+
 
 ## Ecosystem
 
