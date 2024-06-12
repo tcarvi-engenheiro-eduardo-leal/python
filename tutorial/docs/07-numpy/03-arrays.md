@@ -28,6 +28,10 @@ np.array([4, 5, 9],
 ```python
 import numpy as np
 
+# Imagem de televisão
+## Array tridimensional com lista de arrays bidimensionais. 
+## Para imagem de televisão, usa-se lista com 3 arrays bidimensionais
+## O Array final definido representa 
 np.array([
          [4, 5, 9],
          [9, 8, 7],
@@ -37,5 +41,51 @@ np.array([
          [6, 6, 6],
          [9, 5, 7],
          [9, 9, 9]
+         ],
+         [
+         [6, 6, 6],
+         [9, 5, 7],
+         [9, 9, 9]
          ])
+```  
+
+## Array Multidimensional n-d
+- As operações de criação de array não são limitadas a 0, 1, 2 e 3 dimensões. Pode-se criar n dimensões desde que os objetos do mesmo nível tenham o mesmo formato.
+- Podemos interpretar uma matriz de ordem superior como um objeto que contém informações sobre outros objetos matemáticos.
+```python
+import numpy as np
+
+np.array(
+    [
+        [
+         [4, 5, 9],
+         [9, 8, 7],
+         [4, 7, 0]
+         ],
+         [
+         [6, 6, 6],
+         [9, 5, 7],
+         [9, 9, 9]
+         ],
+         [
+         [6, 6, 6],
+         [9, 5, 7],
+         [9, 9, 9]
+        ],
+        [
+         [4, 5, 9],
+         [9, 8, 7],
+         [4, 7, 0]
+         ],
+         [
+         [6, 6, 6],
+         [9, 5, 7],
+         [9, 9, 9]
+         ],
+         [
+         [6, 6, 6],
+         [9, 5, 7],
+         [9, 9, 9]
+         ]
+    ])
 ```  
