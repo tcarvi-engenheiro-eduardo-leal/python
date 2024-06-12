@@ -29,3 +29,7 @@ def retornarTuple(parameter1, parameter2, parameter3, parameter4):
 
 var_name1, var_name2, var_name3, var_name4 = retornarTuple("algum_argumento", "outro_argumento", 12, "ultimo")
 ```  
+
+- count()
+- index()
+- sorted() # Ordena dados da tupla em uma lista criada com seus elementos.

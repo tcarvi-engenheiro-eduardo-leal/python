@@ -1,4 +1,8 @@
 # Loops
+```python
+for elemento in iteravel:
+    # bloco de execução
+```  
 
 ## Loop em uma list
 ```python

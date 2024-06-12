@@ -48,3 +48,15 @@ for chave, valor in aparicoes.items():
 ## List Compreension No Loop
 ["chave na tupla = ({})".format(chave) for chave, _ in aparicoes.items()]
 ```  
+
+- clear()
+- copy()
+- dict.fromkeys()
+- get()
+- items() # retorna lista de tuplas que representam itens do dicionário.
+- keys()
+- pop()
+- popitem()
+- setdefault()
+- update()
+- values()

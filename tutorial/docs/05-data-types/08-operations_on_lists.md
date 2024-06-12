@@ -51,4 +51,15 @@ class NomeDaClasse
     def __str__(self):
         return "[Novo texto impresso para instância da classe. Variaveis: {} e {}]".format(self.paramentro_usuario1, self.paramentro_usuario2)
 
-```
+```  
+
+- append()
+- clear()
+- copy()
+- count()
+- extend()
+- insert()
+- pop()
+- remove()
+- reverse()
+- sort() # para lista de apenas números ou de apenas strings.
