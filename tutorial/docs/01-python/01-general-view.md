@@ -51,3 +51,6 @@
 
 ## Instrução sobre Python
 - https://edube.org/
+- wiki.python.org.br/ListaDeExercicios
+- https://wiki.python.org.br/CookBook
+- https://wiki.python.org.br/Mais
