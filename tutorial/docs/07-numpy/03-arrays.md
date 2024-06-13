@@ -39,8 +39,8 @@ dado_teste = np.array([
                       ])
 print(dado_teste)
 print(dado_teste.ndim) # 2 # Quantidade de dimensões do dado
-print(dado_teste.size) # 9 # Quantidade de dados
-print(dado_teste.shape) # (3,3) # Quantidade do primeiro array = 3, Quantidade do segundo array = 4
+print(dado_teste.size) # 24 # Quantidade de dados
+print(dado_teste.shape) # (3, 4) # Quantidade do primeiro array = 3, Quantidade do segundo array = 4
 # Em análise bidimensional de tabelas, pensa-se no primeiro array como linhas e o segundo array como colunas.
 ```  
 
@@ -61,17 +61,12 @@ dado_teste = np.array([
                         [6, 6, 6, 5],
                         [9, 5, 7, 1],
                         [9, 9, 9, 3]
-                       ],
-                       [
-                        [6, 6, 6, 5],
-                        [9, 5, 7, 8],
-                        [9, 9, 9, 0]
                        ]
                       ])
 print(dado_teste)
 print(dado_teste.ndim) # 2 # Quantidade de dimensões do dado
-print(dado_teste.size) # 9 # Quantidade de dados
-print(dado_teste.shape) # (3,3) # Quantidade do primeiro array = 3, Quantidade do segundo array = 
+print(dado_teste.size) # 48 # Quantidade de dados
+print(dado_teste.shape) # (2, 3, 4) # Quantidade do primeiro array = 2, Quantidade do segundo array = 3, Qauntidade do terceiro array = 4 
 ```  
 
 ## Array Multidimensional n-d
