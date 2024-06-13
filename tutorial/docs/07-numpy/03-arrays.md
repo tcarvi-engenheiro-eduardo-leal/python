@@ -23,7 +23,7 @@ dado_teste = np.array([4, 5, 67, 89, 9])  # Gera [4, 5, 67, 89, 9], no formato a
 print(dado_teste) # [4, 5, 67, 89, 9]
 print(dado_teste.ndim) # 1 # Quantidade de dimensões do dado
 print(dado_teste.size) # 5 # Quantidade de dados
-print(dado_teste.shape) # (5,) # Quantidade do primeiro array, Quantidade do segundo array = 0
+print(dado_teste.shape) # (5,) # Quantidade do primeiro array = 5, Quantidade do segundo array = 0
 ```  
 
 ## Array Bidimensional 2-d
