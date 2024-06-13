@@ -10,7 +10,7 @@ print(dado_teste.ndim) # 0 # Quantidade de dimensões do dado
 print(dado_teste.size) # 1 # Quantidade de dados
 print(dado_teste.shape) # () # Quantidade de linhas e colunas
 print(dado_teste.T) # 42
-print(dado_teste.T,.ndim) # 0 # Quantidade de dimensões do dado
+print(dado_teste.T.ndim) # 0 # Quantidade de dimensões do dado
 print(dado_teste.T.size) # 1 # Quantidade de dados
 print(dado_teste.T.shape) # () # Quantidade de linhas e colunas
 ```  
@@ -25,7 +25,7 @@ print(dado_teste.ndim) # 1 # Quantidade de dimensões do dado
 print(dado_teste.size) # 5 # Quantidade de dados
 print(dado_teste.shape) # (5,) # Quantidade do primeiro array = 5, Quantidade do segundo array = 0
 print(dado_teste.T) # 42
-print(dado_teste.T,.ndim) # 1 # Quantidade de dimensões do dado
+print(dado_teste.T.ndim) # 1 # Quantidade de dimensões do dado
 print(dado_teste.T.size) # 5 # Quantidade de dados
 print(dado_teste.T.shape) # (5) # Quantidade de linhas e colunas
 ```  
