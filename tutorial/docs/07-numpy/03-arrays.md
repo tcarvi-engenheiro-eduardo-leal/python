@@ -4,7 +4,8 @@
 ```python
 import numpy as np
 ## Array 0 dimensional
-## Neste caso, não há um array de algo. Apenas 1 valor.
+## A lógica de construção é: "uma lista de valores sem estar em um array". (0 sucessões de arrays)
+## Neste caso, não há um array de algo. Apenas um valor sem dimensão de array.
 dado_teste = np.array(42)  # Gera 42, mas no formato array de 0 dimensão.
 print(dado_teste) # 42
 print(dado_teste.ndim) # 0 # Quantidade de dimensões do dado
@@ -16,6 +17,7 @@ print(dado_teste.shape) # () # Quantidade de linhas e colunas
 ```python
 import numpy as np
 ## Array unidimensional
+## A lógica de construção é: "Array de uma lista de valores". (1 array)
 ## Neste caso, array de lista de valores. Não importa a quantidade dos valores. A dimensão é 1: "array de lista de valores".
 dado_teste = np.array([4, 5, 67, 89, 9])  # Gera [4, 5, 67, 89, 9], no formato array de 1 dimensão.
 print(dado_teste) # [4, 5, 67, 89, 9]
@@ -28,6 +30,7 @@ print(dado_teste.shape) # (5,) # Quantidade de linhas e colunas
 ```python
 import numpy as np
 ## Array bidimensional
+## A lógica de construção é: "Array de arrays de uma lista de valores". (2 sucessões de arrays)
 ## Neste caso, array de arrays de lista de valores. Não importa a quantidade dos valores. A dimensão é 2: "array de array de lista de valores".
 dado_teste = np.array([
                        [4, 5, 9],
@@ -44,10 +47,8 @@ print(dado_teste.shape) # (3,3) #Quantidade de linhas e colunas
 - Uma lista de arrays bidimensionais.
 ```python
 import numpy as np
-
-## A lógica de construção é: "Array de arrays".
-## Array tridimensional com lista de arrays bidimensionais. 
-## Array de array de array de lista de valores. 3 dimensões na formação do array.
+## Array tridimensional
+## A lógica de construção é: "Array de arrays de arrays de uma lista de valores". (3 sucessões de arrays)
 ## O Array final definido representa 
 dado_teste = np.array([
                        [
