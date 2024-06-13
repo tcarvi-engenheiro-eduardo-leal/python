@@ -53,9 +53,9 @@ print(dado_teste.T.shape) # (3, 4) # Quantidade do primeiro array = 3, Quantidad
 - Uma lista de arrays bidimensionais.
 ```python
 import numpy as np
-## Array tridimensional
-## A lógica de construção é: "Array de arrays de arrays de uma lista de valores". (3 sucessões de arrays)
-## O Array final definido representa 
+## O Transverso de um array de 3 dimensões é uma operação matricial. Troca-se as linhas pelas colunas.
+## A mudança ocorre nos dois últimos arrays, apenas.
+
 dado_teste = np.array([
                        [
                         [4, 5, 9, 4],
@@ -72,12 +72,15 @@ print(dado_teste)
 print(dado_teste.ndim) # 2 # Quantidade de dimensões do dado
 print(dado_teste.size) # 48 # Quantidade de dados
 print(dado_teste.shape) # (2, 3, 4) # Quantidade do primeiro array = 2, Quantidade do segundo array = 3, Qauntidade do terceiro array = 4 
+print(dado_teste.T)
+print(dado_teste.T.ndim) # 2 # Quantidade de dimensões do dado
+print(dado_teste.T.size) # 48 # Quantidade de dados
+print(dado_teste.T.shape) # (2, 4, 3) # Quantidade do primeiro array = 2, Quantidade do segundo array = 3, Qauntidade do terceiro array = 4 
 ```  
 
 ## Array Multidimensional n-d
-- As operações de criação de array não são limitadas a 0, 1, 2 e 3 dimensões. 
-- Pode-se criar n dimensões desde que os objetos do mesmo nível tenham o mesmo formato.
-- Podemos interpretar uma matriz de ordem superior como um objeto que contém informações sobre outros objetos matemáticos.
+## O Transverso de um array de n dimensões é uma operação matricial. Troca-se as linhas pelas colunas.
+## A mudança ocorre nos dois últimos arrays, apenas.
 ```python
 import numpy as np
 
