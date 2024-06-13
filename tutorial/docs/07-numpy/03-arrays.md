@@ -3,7 +3,8 @@
 ## Escalar 0-d
 ```python
 import numpy as np
-
+## Array 0 dimensional
+## Neste caso, não há um array de algo. Apenas 1 valor.
 dado_teste = np.array(42)  # Gera 42, mas no formato array de 0 dimensão.
 print(dado_teste) # 42
 print(dado_teste.ndim) # 0 # Quantidade de dimensões do dado
@@ -14,7 +15,8 @@ print(dado_teste.shape) # () # Quantidade de linhas e colunas
 ## Array Unidimensional 1-d
 ```python
 import numpy as np
-
+## Array unidimensional
+## Neste caso, array de lista de valores. Não importa a quantidade dos valores. A dimensão é 1: "array de lista de valores".
 dado_teste = np.array([4, 5, 67, 89, 9])  # Gera [4, 5, 67, 89, 9], no formato array de 1 dimensão.
 print(dado_teste) # [4, 5, 67, 89, 9]
 print(dado_teste.ndim) # 1 # Quantidade de dimensões do dado
@@ -25,11 +27,13 @@ print(dado_teste.shape) # (5,) # Quantidade de linhas e colunas
 ## Array Bidimensional 2-d
 ```python
 import numpy as np
-
-dado_teste = np.array([[4, 5, 9],
+## Array bidimensional
+## Neste caso, array de arrays de lista de valores. Não importa a quantidade dos valores. A dimensão é 2: "array de array de lista de valores".
+dado_teste = np.array([
+                       [4, 5, 9],
                        [9, 8, 7],
                        [4, 7, 0]
-                    ])
+                      ])
 print(dado_teste)
 print(dado_teste.ndim) # 2 # Quantidade de dimensões do dado
 print(dado_teste.size) # 9 # Quantidade de dados
@@ -41,9 +45,9 @@ print(dado_teste.shape) # (3,3) #Quantidade de linhas e colunas
 ```python
 import numpy as np
 
-# Imagem de televisão
+## A lógica de construção é: "Array de arrays".
 ## Array tridimensional com lista de arrays bidimensionais. 
-## Para imagem de televisão, usa-se lista com 3 arrays bidimensionais
+## Array de array de array de lista de valores. 3 dimensões na formação do array.
 ## O Array final definido representa 
 dado_teste = np.array([
                        [
