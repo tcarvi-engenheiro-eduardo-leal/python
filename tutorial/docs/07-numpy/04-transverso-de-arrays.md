@@ -3,7 +3,7 @@
 ## Escalar 0-d
 ```python
 import numpy as np
-## O Transverso de um array de 0 dimensão é igual a ele mesmo.
+## O Transverso de um array de 0 dimensão é igual ao próprio array.
 dado_teste = np.array(42)  # Gera 42, mas no formato array de 0 dimensão.
 print(dado_teste) # 42
 print(dado_teste.ndim) # 0 # Quantidade de dimensões do dado
@@ -18,7 +18,7 @@ print(dado_teste.T.shape) # () # Quantidade de linhas e colunas
 ## Array Unidimensional 1-d
 ```python
 import numpy as np
-## O Transverso de um array de 1 dimensão é igual a ele mesmo.
+## O Transverso de um array de 1 dimensão é igual ao próprio array.
 dado_teste = np.array([4, 5, 67, 89, 9])  # Gera [4, 5, 67, 89, 9], no formato array de 1 dimensão.
 print(dado_teste) # [4, 5, 67, 89, 9]
 print(dado_teste.ndim) # 1 # Quantidade de dimensões do dado
