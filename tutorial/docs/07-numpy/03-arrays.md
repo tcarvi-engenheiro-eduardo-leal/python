@@ -18,7 +18,7 @@ print(dado_teste.shape) # () # Quantidade de linhas e colunas
 import numpy as np
 ## Array unidimensional
 ## A lógica de construção é: "Array de uma lista de valores". (1 array)
-## Neste caso, array de lista de valores. Não importa a quantidade dos valores. A dimensão é 1: "array de lista de valores".
+## Não importa a quantidade dos valores. A dimensão é 1: "array de lista de valores".
 dado_teste = np.array([4, 5, 67, 89, 9])  # Gera [4, 5, 67, 89, 9], no formato array de 1 dimensão.
 print(dado_teste) # [4, 5, 67, 89, 9]
 print(dado_teste.ndim) # 1 # Quantidade de dimensões do dado
@@ -31,7 +31,7 @@ print(dado_teste.shape) # (5,) # Quantidade de linhas e colunas
 import numpy as np
 ## Array bidimensional
 ## A lógica de construção é: "Array de arrays de uma lista de valores". (2 sucessões de arrays)
-## Neste caso, array de arrays de lista de valores. Não importa a quantidade dos valores. A dimensão é 2: "array de array de lista de valores".
+## Não importa a quantidade dos valores da lista. A dimensão é 2: "array de array de lista de valores".
 dado_teste = np.array([
                        [4, 5, 9],
                        [9, 8, 7],
@@ -74,7 +74,8 @@ print(dado_teste.shape) # (3,3) #Quantidade de linhas e colunas
 ```  
 
 ## Array Multidimensional n-d
-- As operações de criação de array não são limitadas a 0, 1, 2 e 3 dimensões. Pode-se criar n dimensões desde que os objetos do mesmo nível tenham o mesmo formato.
+- As operações de criação de array não são limitadas a 0, 1, 2 e 3 dimensões. 
+- Pode-se criar n dimensões desde que os objetos do mesmo nível tenham o mesmo formato.
 - Podemos interpretar uma matriz de ordem superior como um objeto que contém informações sobre outros objetos matemáticos.
 ```python
 import numpy as np
