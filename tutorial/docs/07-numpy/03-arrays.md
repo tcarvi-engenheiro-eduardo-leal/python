@@ -23,7 +23,7 @@ dado_teste = np.array([4, 5, 67, 89, 9])  # Gera [4, 5, 67, 89, 9], no formato a
 print(dado_teste) # [4, 5, 67, 89, 9]
 print(dado_teste.ndim) # 1 # Quantidade de dimensões do dado
 print(dado_teste.size) # 5 # Quantidade de dados
-print(dado_teste.shape) # (5,) # Quantidade de linhas e colunas
+print(dado_teste.shape) # (5,) # Quantidade do primeiro array, Quantidade do segundo array = 0
 ```  
 
 ## Array Bidimensional 2-d
@@ -33,14 +33,15 @@ import numpy as np
 ## A lógica de construção é: "Array de arrays de uma lista de valores". (2 sucessões de arrays)
 ## Não importa a quantidade dos valores da lista. A dimensão é 2: "array de array de lista de valores".
 dado_teste = np.array([
-                       [4, 5, 9],
-                       [9, 8, 7],
-                       [4, 7, 0]
+                       [4, 5, 9, 6],
+                       [9, 8, 7, 5],
+                       [4, 7, 0, 3]
                       ])
 print(dado_teste)
 print(dado_teste.ndim) # 2 # Quantidade de dimensões do dado
 print(dado_teste.size) # 9 # Quantidade de dados
-print(dado_teste.shape) # (3,3) #Quantidade de linhas e colunas
+print(dado_teste.shape) # (3,3) # Quantidade do primeiro array = 3, Quantidade do segundo array = 4
+# Em análise bidimensional de tabelas, pensa-se no primeiro array como linhas e o segundo array como colunas.
 ```  
 
 ## Array Tridimensional 3-d
@@ -52,25 +53,25 @@ import numpy as np
 ## O Array final definido representa 
 dado_teste = np.array([
                        [
-                        [4, 5, 9],
-                        [9, 8, 7],
-                        [4, 7, 0]
+                        [4, 5, 9, 4],
+                        [9, 8, 7, 4],
+                        [4, 7, 0, 5]
                        ],
                        [
-                        [6, 6, 6],
-                        [9, 5, 7],
-                        [9, 9, 9]
+                        [6, 6, 6, 5],
+                        [9, 5, 7, 1],
+                        [9, 9, 9, 3]
                        ],
                        [
-                        [6, 6, 6],
-                        [9, 5, 7],
-                        [9, 9, 9]
+                        [6, 6, 6, 5],
+                        [9, 5, 7, 8],
+                        [9, 9, 9, 0]
                        ]
                       ])
 print(dado_teste)
 print(dado_teste.ndim) # 2 # Quantidade de dimensões do dado
 print(dado_teste.size) # 9 # Quantidade de dados
-print(dado_teste.shape) # (3,3) #Quantidade de linhas e colunas
+print(dado_teste.shape) # (3,3) # Quantidade do primeiro array = 3, Quantidade do segundo array = 
 ```  
 
 ## Array Multidimensional n-d
