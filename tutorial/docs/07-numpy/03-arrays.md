@@ -45,21 +45,27 @@ import numpy as np
 ## Array tridimensional com lista de arrays bidimensionais. 
 ## Para imagem de televisão, usa-se lista com 3 arrays bidimensionais
 ## O Array final definido representa 
-np.array([
-         [4, 5, 9],
-         [9, 8, 7],
-         [4, 7, 0]
-         ],
-         [
-         [6, 6, 6],
-         [9, 5, 7],
-         [9, 9, 9]
-         ],
-         [
-         [6, 6, 6],
-         [9, 5, 7],
-         [9, 9, 9]
-         ])
+dado_teste = np.array([
+                       [
+                        [4, 5, 9],
+                        [9, 8, 7],
+                        [4, 7, 0]
+                       ],
+                       [
+                        [6, 6, 6],
+                        [9, 5, 7],
+                        [9, 9, 9]
+                       ],
+                       [
+                        [6, 6, 6],
+                        [9, 5, 7],
+                        [9, 9, 9]
+                       ]
+                      ])
+print(dado_teste)
+print(dado_teste.ndim) # 2 # Quantidade de dimensões do dado
+print(dado_teste.size) # 9 # Quantidade de dados
+print(dado_teste.shape) # (3,3) #Quantidade de linhas e colunas
 ```  
 
 ## Array Multidimensional n-d
