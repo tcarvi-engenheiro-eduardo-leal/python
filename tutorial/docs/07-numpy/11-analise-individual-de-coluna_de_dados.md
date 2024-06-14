@@ -23,7 +23,7 @@ dado_como_tabela = plt.table(cellText=dado_shape_correto,
                               colLoc="center",
                               loc='top',
                               edges="closed")     
-dado_como_tabela
+print(dado_como_tabela)
 
 
 # Estudo individual de todo o gráfico da cidade 1
@@ -35,6 +35,18 @@ plt.legend(['preços na cidade 1'])
 # Verificação de Dados Defeituosos
 #
 # Estudo individual de todo o gráfico da cidade 1
-soma_de_nan = sum(np.isnan(dado_shape_correto[:,1]))
-soma_de_nan
+soma_de_nan1 = sum(np.isnan(dado_shape_correto[:,1]))
+print(soma_de_nan1)
+# Teste para demais Gráficos
+soma_de_nan2 = sum(np.isnan(dado_shape_correto[:,2]))
+print(soma_de_nan2)
+soma_de_nan3 = sum(np.isnan(dado_shape_correto[:,3]))
+print(soma_de_nan3)
+soma_de_nan4 = sum(np.isnan(dado_shape_correto[:,4]))
+print(soma_de_nan4)
+soma_de_nan5 = sum(np.isnan(dado_shape_correto[:,5]))
+print(soma_de_nan5)
 ```  
+
+### Correção de Erro Identificado no dado 2
+- 
