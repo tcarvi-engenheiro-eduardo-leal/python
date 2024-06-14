@@ -1,14 +1,18 @@
 # Ver dado como tabela
 ```python
 import matplotlib.pyplot as plt
-# 6 colunas
-columns = ('Col1', 'Col2', 'Col3', 'Col4', 'Col5', 'Col6')
-rows = datas # NpArray de dimensão (X,6), sendo X qualquer valor numérico de linhas.
+# Parâmetro cellText é opcional.
+# Mas se deve indicar pelo menos este campo ou cellColours.
+# cellText: 2D list of str. The texts to place into the table cells.
+# cellLoc: The alignment of the text within the cells
+# rowLoc: The text alignment of the row header cells
+# loc: The position of the cell with respect to ax. 
+# edges: The cell edges to be drawn with a line. 
 the_table = plt.table(cellText=tabela,
                       cellLoc="left",
                       rowLoc="left",
                       colLoc="center",
                       loc='top',
                       edges="closed")
-plt.show()
+the_table
 ``` 
