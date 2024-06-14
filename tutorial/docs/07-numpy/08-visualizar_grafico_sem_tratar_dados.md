@@ -1,4 +1,4 @@
-# Visualizar Gráfico
+# Visualizar Gráfico sem Tratar Dados
 ```python
 import numpy as np
 url = 'https://raw.githubusercontent.com/alura-cursos/numpy/dados/apples_ts.csv'
