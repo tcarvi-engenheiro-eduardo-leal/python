@@ -5,6 +5,10 @@ import numpy as np
 url = 'https://raw.githubusercontent.com/alura-cursos/numpy/dados/apples_ts.csv'
 dado_importado = np.loadtxt(url,delimiter=',',usecols=np.arange(1,88,1))
 dado_shape_correto = dado_importado.T
+
+#
+# Ver dado como tabela, para poder trabalhar transformações
+#
 import matplotlib.pyplot as plt
 # Parâmetro cellText é opcional.
 # Mas se deve indicar pelo menos este campo ou cellColours.
@@ -20,6 +24,7 @@ dado_como_tabela = plt.table(cellText=dado_shape_correto,
                               loc='top',
                               edges="closed")     
 dado_como_tabela
+
 
 # Estudo individual de todo o gráfico da cidade 1
 # dado_shape_correto[:,0] = np.arange(1,88,1) # sequência de 1 até 87
