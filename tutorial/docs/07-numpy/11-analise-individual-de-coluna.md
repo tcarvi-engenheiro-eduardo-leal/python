@@ -1,14 +1,10 @@
-# Explorar Visualizaço dos Dados em Gráficos
+# Análise individual de coluna
 
 ```python
 import numpy as np
 url = 'https://raw.githubusercontent.com/alura-cursos/numpy/dados/apples_ts.csv'
 dado_importado = np.loadtxt(url,delimiter=',',usecols=np.arange(1,88,1))
 dado_shape_correto = dado_importado.T
-
-#
-# Ver dado como tabela, para poder trabalhar transformações
-#
 import matplotlib.pyplot as plt
 # Parâmetro cellText é opcional.
 # Mas se deve indicar pelo menos este campo ou cellColours.
@@ -25,31 +21,15 @@ dado_como_tabela = plt.table(cellText=dado_shape_correto,
                               edges="closed")     
 dado_como_tabela
 
-#
-# Uso como eixo X as datas de 1 ano
-#
-datas_ano1 = np.arange(1, 13, 1) # sequência de 1 até 12
+# Estudo individual de todo o gráfico da cidade 1
+# dado_shape_correto[:,0] = np.arange(1,88,1) # sequência de 1 até 87
+plt.plot(np.arange(1,88,1),dado_shape_correto[:,1])
+plt.legend(['preços na cidade 1'])
 
 #
-# Separo cada coluna para plotagem
+# Verificação de Dados Defeituosos
 #
-precos_cidade1_ano1 = dado_shape_correto[datas_ano1,1]
-precos_cidade2_ano1 = dado_shape_correto[datas_ano1,2]
-precos_cidade3_ano1 = dado_shape_correto[datas_ano1,3]
-precos_cidade4_ano1 = dado_shape_correto[datas_ano1,4]
-precos_cidade5_ano1 = dado_shape_correto[datas_ano1,5]
-
-#
-# Plotagem sequencial em um mesmo gráfico
-#
-plt.plot(datas_ano1, precos_cidade1_ano1)
-plt.plot(datas_ano1, precos_cidade2_ano1)
-plt.plot(datas_ano1, precos_cidade3_ano1)
-plt.plot(datas_ano1, precos_cidade4_ano1)
-plt.plot(datas_ano1, precos_cidade5_ano1)
-
-#
-# Legenda para o gráfico
-#
-plt.legend(['ano 1','ano 2','ano 3','ano 4','ano 5'])
-```
+# Estudo individual de todo o gráfico da cidade 1
+soma_de_nan = sum(np.isnan(dado_shape_correto[:,1]))
+soma_de_nan
+```  
