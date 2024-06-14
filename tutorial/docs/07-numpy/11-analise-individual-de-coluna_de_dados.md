@@ -53,4 +53,18 @@ print(soma_de_nan5)
 dados_coluna = dado_shape_correto[:,2]
 lista_de_defeitos_em_coluna_escolhida = [i for i in range(len(dados_coluna)) if np.isnan(dados_coluna[i])]
 lista_de_defeitos_em_coluna_escolhida
+
+#
+# Script para correção pontual
+#
+for i in lista_de_defeitos_em_coluna_escolhida:
+  if i == 0 and np.nan(dados_coluna[1]) != True:
+    dados_coluna[i] = dados_coluna[1]
+  elif i == len(lista_de_defeitos_em_coluna_escolhida) - 1 and np.nan(dados_coluna[len(lista_de_defeitos_em_coluna_escolhida) - 2]) != True:
+      dados_coluna[i] = dados_coluna[len(lista_de_defeitos_em_coluna_escolhida) - 2]
+  else:
+    dados_coluna[i] = np.mean(dados_coluna[i-1],dados_coluna[i+1])
+# Teste
+soma_de_nan2 = sum(np.isnan(dados_coluna))
+print(soma_de_nan2)
 ```  
