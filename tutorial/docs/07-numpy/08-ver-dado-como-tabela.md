@@ -1,4 +1,5 @@
 # Ver dado como tabela
+- Plotar tabela tendo como dados um array NumPy de 2 dimensões
 ```python
 import matplotlib.pyplot as plt
 # Parâmetro cellText é opcional.
@@ -8,7 +9,7 @@ import matplotlib.pyplot as plt
 # rowLoc: The text alignment of the row header cells
 # loc: The position of the cell with respect to ax. 
 # edges: The cell edges to be drawn with a line. 
-the_table = plt.table(cellText=tabela,
+the_table = plt.table(cellText=dados_array_numpy_dimensao_87linhas_por_6colunas,
                       cellLoc="left",
                       rowLoc="left",
                       colLoc="center",
