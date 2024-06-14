@@ -63,8 +63,9 @@ for i in lista_de_defeitos_em_coluna_escolhida:
   elif i == len(lista_de_defeitos_em_coluna_escolhida) - 1 and np.nan(dados_coluna[len(lista_de_defeitos_em_coluna_escolhida) - 2]) != True:
       dados_coluna[i] = dados_coluna[len(lista_de_defeitos_em_coluna_escolhida) - 2]
   else:
-    dados_coluna[i] = np.mean(dados_coluna[i-1],dados_coluna[i+1])
+    dados_coluna[i] = np.mean([dados_coluna[i-1],dados_coluna[i+1]])
 # Teste
+# problema resolvido, mas script não é perfeito. Alguns dados geram erro...
 soma_de_nan2 = sum(np.isnan(dados_coluna))
 print(soma_de_nan2)
 ```  
