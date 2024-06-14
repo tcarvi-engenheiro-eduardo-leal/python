@@ -51,7 +51,6 @@ print(soma_de_nan5)
 ### Correção de Erro Identificado no dado 2
 ```python
 dados_coluna = dado_shape_correto[:,2]
-print(dados_coluna)
-lista_de_defeitos_em_coluna_escolhida = [i for i in enumerate(dados_coluna) if np.isnan(dados_coluna[i[0]])]
+lista_de_defeitos_em_coluna_escolhida = [i for i in range(len(dados_coluna)) if np.isnan(dados_coluna[i])]
 lista_de_defeitos_em_coluna_escolhida
 ```  
