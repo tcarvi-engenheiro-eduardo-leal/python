@@ -2,5 +2,5 @@
 ```python
 import pandas as pd
 
-url = `xxxxxxx`
+url = 'xxxxxxx'
 dados = pd.read_csv(url, sep=';')
