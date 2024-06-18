@@ -1,4 +1,4 @@
-# Exploracao das Características dos Dados
+# Contagem e percentual dos Dados
 ```python
 import pandas as pd
 

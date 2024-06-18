@@ -1,4 +1,4 @@
-# Exploracao das Características dos Dados
+# Remocao de Colunas dos Dados
 ```python
 import pandas as pd
 

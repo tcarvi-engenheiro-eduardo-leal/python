@@ -1,4 +1,4 @@
-# Exploracao das Características dos Dados
+# Query dos Dados
 ```python
 import pandas as pd
 

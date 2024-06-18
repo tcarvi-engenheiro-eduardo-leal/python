@@ -1,4 +1,4 @@
-# Exploracao das Características dos Dados
+# Seleção e Apresentação dos Dados
 ```python
 import pandas as pd
 
