@@ -1,4 +1,4 @@
-# Exploracao das Características Gerais dos Dados
+# Exploracao das Características dos Dados
 ```python
 import pandas as pd
 
@@ -34,5 +34,17 @@ df_percentual_tipo.plot(kind='bar', figsize=(14, 10), color='green' xlabel='Tipo
 
 # Nova Query de Dados
 df.query('Tipo == "Apartamento"')
+
+# Celula é ou não null
+df.isnull()
+df.isnull().sum()
+
+# Tratar valores nulos
+# Mudar todos valores nulo para 0
+df.fillna(0)
+df.isnull().sum() # Não há mais valores nulos.
+
+# Nova query de dados
+df.query('Valor == 0 | Condominio == 0")
 
 ```  
