@@ -45,6 +45,10 @@ df.fillna(0)
 df.isnull().sum() # Não há mais valores nulos.
 
 # Nova query de dados
-df.query('Valor == 0 | Condominio == 0")
+df.query('Valor == 0 | Condominio == 0')
+
+# Remocão usando indexes
+index_a_remover = df.query('Valor == 0 | Condominio == 0').index
+df.drop(index_a_remover, axis=0, inplace=True)
 
 ```  
