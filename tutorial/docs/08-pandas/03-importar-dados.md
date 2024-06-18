@@ -10,3 +10,4 @@ print(dados.columns)
 print(dados.info())
 print(dados['Tipo']) # Imprime a coluna Tipe como Serie
 print(dados[['Tipo', 'Quarto']]) # Imprime a coluna Tipe como Serie
+print(dados['Valor'].mean()) # extrai comuna 
