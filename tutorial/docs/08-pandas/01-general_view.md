@@ -22,7 +22,7 @@
 ## Dois objetos importantes
 - Series
     - Objetos do tipo array unidimensional
-    - Com um eixo de rótulos também chamado de index
+    - Com um eixo chamado de index e outro eixo com os valores/objetos da Serie.
     - Dados:
         - Uma estrutura de index
         - Uma estrutural de valores/objetos
@@ -32,8 +32,7 @@
 - DataFrames
     - Objetos do tipo array bidimensional, de tamanho variável.
     - Formato de uma tabela onde o dados se organizam em linhas e colunas
-    - É uma união de várias Series, mas sob um mesmo index.
-    - Com um eixo de rótulos também chamado de index
+    - É uma união de várias Series, **mas sob um mesmo index**.
     - Dados:
         - Uma estrutura de index
         - Uma estrutural de valores/objetos
