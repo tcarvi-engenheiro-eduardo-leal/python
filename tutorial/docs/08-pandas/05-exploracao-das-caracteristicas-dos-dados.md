@@ -49,6 +49,6 @@ df.query('Valor == 0 | Condominio == 0')
 
 # Remocão usando indexes
 index_a_remover = df.query('Valor == 0 | Condominio == 0').index
-df.drop(index_a_remover, axis=0, inplace=True)
+df.drop(index_a_remover, axis=0, inplace=True) # axis=0 indica que a remoção é de linhas
 
 ```  
