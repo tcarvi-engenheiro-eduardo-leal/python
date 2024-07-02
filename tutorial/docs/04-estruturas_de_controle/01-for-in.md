@@ -92,14 +92,12 @@ for i in enumerate(idades):
 
 ## loop com enumerate e unpacking
 ```python
+idades = [15, 87, 32, 45, 67, 37]
 for indice, idade in enumerate(idades): 
     # unpacking da tupla gravando indice e idade
     print(indice, idade)
 
-variable_name1 = ("Algum nome1", 31, 1981)
-variable_name2 = ("Algum nome2", 21, 1990)
-lista_de_tuplas = [variable_name1, variable_name2]
-for nome, _, _ in enumerate(lista_de_tuplas): 
-    # unpacking da tupla gravando nome e descartando demais campos.
-    print(nome)
+for indice, _ in enumerate(idades): 
+    # unpacking da tupla gravando indice e descartando idade
+    print(indice)
 ``` 
