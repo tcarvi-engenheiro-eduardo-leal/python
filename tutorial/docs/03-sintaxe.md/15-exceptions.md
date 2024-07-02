@@ -10,7 +10,7 @@
 - Erro ocorre quando tentamos utilizar um nome de algum elemento/nome inexistente no código.
 
 ## IndexError
-- O erro ocorre quando tentamos 
+- O erro ocorre quando tentamos acessar um index inexistente.
 
 ## TypeError
 - O erro ocorre quando um operador ou função são aplicados a um objeto cujo tipo é inapropriado.
