@@ -32,3 +32,4 @@ print(mytripler(11)) # O parâmetro passado aqui é o a, da função anônima cr
 ```  
 - Neste exemplo, usa-se lambda para se definir 2 funções diferentes que foram definidas no momento da chamada.
 - Pode-se, com o lambda, criar novos "comportamentos" no momento da execução do script, sem precisar criar novas classes ou novos métodos.
+- Esta é a `principal funcionalidade do lambda`! A outra funcionalidade indicada se refere ao perfil sintético da codificação.
