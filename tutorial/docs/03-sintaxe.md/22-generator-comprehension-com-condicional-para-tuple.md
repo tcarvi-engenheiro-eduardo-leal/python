@@ -16,4 +16,4 @@ new_tuple = tuple(new_generator)
 # new_tuple = ("a", "b")
 ```
 
-- Obs. Iterable pode se `tuple` ou `set` ou `list`. Até mesmo o `dict` pode ser usado como iterable.
+- Obs. Iterable pode se `tuple` ou `set` ou `list`. Até mesmo o `dict.items()` pode ser usado como iterable.

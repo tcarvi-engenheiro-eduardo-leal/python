@@ -14,4 +14,4 @@ new_set = {x for x in set_name if x not in 'abc'} # set comprehension
 # new_set = {"c"}
 ```  
 
-- Obs. Iterable pode se `tuple` ou `set` ou `list`. Até mesmo o `dict` pode ser usado como iterable.
+- Obs. Iterable pode se `tuple` ou `set` ou `list`. Até mesmo o `dict.items()` pode ser usado como iterable.
