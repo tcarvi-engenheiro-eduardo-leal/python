@@ -13,9 +13,6 @@ retorno_lambda = lambda_name(3)   # retorna 5
 ### Para processar input e gerar output de forma mais sintética
 - Para não ter que definir uma função anteriormente, dentro do padrão de definição de funções python.
 ```python
-lambda_name = lambda x : x + 2
-retorno_lambda = lambda_name(3)   # retorna 5
-
 x = lambda a, b : a * b
 print(x(5, 6))  # retorna 30
 
