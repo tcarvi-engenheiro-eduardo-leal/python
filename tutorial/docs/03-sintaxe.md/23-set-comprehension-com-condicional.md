@@ -10,4 +10,6 @@ new_set = {x for x in set_name if x not in 'abc'} # set comprehension
 # connector: for
 # item in iterable: x in set_name
 # optional condition: if x not in 'abc'
-```
+```  
+
+- Obs. Iterable pode se tuple ou set ou list. Até mesmo o dict pode ser usado como iterable.
