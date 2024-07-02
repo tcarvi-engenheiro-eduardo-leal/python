@@ -61,12 +61,12 @@ idades = (15, 87, 32, 45, 67, 37)
 for i in enumerate(idades):
     print(i)
     # Retorna os items:
-    # 15
-    # 87
-    # 32
-    # 45
-    # 67
-    # 37
+    # (0, 15)
+    # (1, 87)
+    # (2, 32)
+    # (3, 45)
+    # (4, 67)
+    # (5, 37)
 ``` 
 
 ## Python code sem enumerate
