@@ -26,25 +26,25 @@ class Conta:
 class ContaCorrente(Conta):
 
     def passa_o_mes(self)
-        self._codigo -= 2
+        self._saldo -= 2
 ```  
   
 ```python
 class ContaPoupanca(Conta):
 
     def passa_o_mes(self)
-        self._codigo -= 3
+        self._saldo -= 3
 ```  
 
 ## Exemplo de Polimorfismo
 ```python  
-conta1 = ContaCorrente
-conta2 = ContaPoupanca
+conta1 = ContaCorrente()
+conta2 = ContaPoupanca()
 lista_de_contas = [conta1, conta2]
 for conta in lista_de_contas:
     # Tanto ContaCorrente quanto ContaPoupanca implementa passa_o_mes.
     # Mas o comportamento de cada implementação é diferente.
-    # poly formas diferentes para mesmo método
-    conta.passa_o_mes() # duck typing
+    # Poly formas diferentes para mesmo método.
+    conta.passa_o_mes() # polimorfismo
     print(conta)
 ``` 
