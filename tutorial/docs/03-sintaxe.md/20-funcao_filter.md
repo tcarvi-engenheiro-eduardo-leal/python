@@ -16,7 +16,8 @@ def myFunc(x):
 adults = filter(myFunc, ages)
 
 for x in adults:
-  print(x)
+  print(x) # Não retorna True ou False. Retorna os valores aceitos com True. 
+  # Print 18, 24, 32
 ```
 
 
