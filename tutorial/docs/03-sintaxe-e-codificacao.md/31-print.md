@@ -13,6 +13,7 @@ print(f'primeira: {var_string}')
 print(f'primeira: {var_string} segunda: {var_int} terceira: {var_float} quarta: {var_boolean}')
 
 # Print com Operador de Formatação
+print('primeira: %s' % var_string)
 print('primeira: %s' %(var_string))
 print('primeira: %s' %str(var_boolean))
 print('primeira: %s segunda: %d terceira: %.2f quarta: %s quinta: %c' %(var_string, var_int, var_float, var_boolean, var_character))
