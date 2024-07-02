@@ -14,11 +14,11 @@ print(x)  # <map object at 0x150f5e2c4130>
 print(list(x)) # [5, 6, 6]
 ```
 
-## Use de map() com lambda
+## Uso de map() com lambda
+- Código pode gerar dificuldades de leitura. Ter cuidado...
 ```python 
-# map(lambda: val: expr, iterador)
-lambda_name = lambda x : x + 2
-map_variable = map(lambda_name, [1, 2, 3])
+# map(lambda: input_representante_iteravel: expr_processamento_input, iteravel_com_os_inputs_a_serem_usados)
+map_variable = map(lambda x : x + 2, [1, 2, 3])
 print(map_variable)
 print(list(map_variable))
 ```
