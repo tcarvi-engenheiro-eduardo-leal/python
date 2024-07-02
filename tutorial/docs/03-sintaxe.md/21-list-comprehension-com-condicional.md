@@ -10,4 +10,6 @@ new_list = [x for x in list_name if "a" in x] # List comprehension
 # connector: for
 # item in iterable: x in list_name
 # optional condition: if "a" in x
+
+# new_list = ["apple", "banana"]
 ```

@@ -9,4 +9,5 @@ new_list = [k: v for (k,v) in dict_name if "a" in v] # Dict comprehension
 # item: (k,v)
 # iterable: dict_name
 # optional condition: if "a" in v
+
 ```
