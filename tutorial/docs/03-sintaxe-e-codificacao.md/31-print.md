@@ -39,7 +39,7 @@ class Conta:
         self._outra_variavel = 0
 
     def __str__(self):
-        return "{} and {}".format(self._codigo, self._outra_variárea)
+        return "{} and {}".format(self._codigo, self._outra_variavel)
 ```  
 
 ### Exemplo de Print de classes
