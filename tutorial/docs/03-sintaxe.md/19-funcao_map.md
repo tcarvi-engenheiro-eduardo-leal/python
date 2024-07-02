@@ -17,7 +17,7 @@ print(list(x)) # [5, 6, 6]
 ## Uso de map() com lambda
 - Código pode gerar dificuldades de leitura. Ter cuidado...
 ```python 
-# map(lambda input_representante_iteravel: expr_processamento_input, iteravel_com_os_inputs_a_serem_usados)
+# map(lambda variavel_representante_do_input: expr_processamento_input, iteravel_com_os_inputs_a_serem_usados)
 map_variable = map(lambda x : x + 2, [1, 2, 3])
 print(map_variable)
 print(list(map_variable))
