@@ -42,4 +42,4 @@ for conta in lista_de_contas:
     # o método "passa_o_mes" pois o definiram.
     conta.passa_o_mes()
 # Erro em Runtime - ConstaSemPassaMes deveria ter implementado o método "passa_o_mes" mas não o fez.
-contaComRuntimeErro = ConstaSemPassaMes(3)
+contaComRuntimeErro = ContaSemPassaMes(3)
