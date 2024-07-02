@@ -26,6 +26,7 @@ for x in adults:
 ```python 
 # map(lambda variavel_representante_do_input: expr_processamento_input, iteravel_com_os_inputs_a_serem_usados)
 filtered_variables = filter(lambda x : x <= 2, [1, 2, 3])
-print(filtered_variables)
+print(filtered_variables) # objeto to tipo filter
+# Não retorna True ou False. Retorna os valores aceitos com True. 
 print(list(filtered_variables)) # Imprime [1, 2]
 ```
