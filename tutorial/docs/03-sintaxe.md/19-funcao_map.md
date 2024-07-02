@@ -1,7 +1,11 @@
 # Função map()
-- recebe uma função e recebe um iteravel.
-- Para cada item do iteravel, passa o item para a função e grava o retorno.
-- No final, retorna um mapa com todos os retornos gravados.
+- The map() function executes a specified function for each item in an iterable. 
+- The item is sent to the function as a parameter.
+- Pode haver o retorno de dados, no formato de map.
+- `map(function, iterables)`
+    - `function`	Required. The function to execute for each item
+    - `iterable`	Required. A sequence, collection or an iterator object. 
+
 ```python
 def myfunc(a):
   return len(a)
