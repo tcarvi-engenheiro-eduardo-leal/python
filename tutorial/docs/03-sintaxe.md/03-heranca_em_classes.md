@@ -23,14 +23,14 @@ class ClassePai:
 ```  
   
 ```python
-class ClasseFilho(ClassePai):
+class ClasseFilho1(ClassePai):
 
     def passa_o_mes(self)
         self._codigo -= 2
 ```  
   
 ```python
-class ClasseFilho(ClassePai):
+class ClasseFilho2(ClassePai):
 
     def passa_o_mes(self)
         self._codigo -= 3
