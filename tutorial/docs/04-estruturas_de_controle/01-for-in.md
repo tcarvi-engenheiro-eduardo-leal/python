@@ -80,7 +80,7 @@ for i in range(len(idades)):
 ``` 
 
 ## loop com enumerate
-- Use `enumerate` para ter dados com um index numérico.
+- Use `enumerate` para ter `tuples` onde o primeiro elemento da tuple é o index do iterable.
 ```python
 idades = [15, 87, 32, 45, 67, 37]
 for i in enumerate(idades):
