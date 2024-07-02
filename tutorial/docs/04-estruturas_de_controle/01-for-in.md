@@ -87,10 +87,15 @@ for i in enumerate(idades):
     # enumerate gera lista de tuplas
     # A posição 0 da dupla contem o index
     # A posição 1 da dupla contem o valor
-    print(i, idades[i])
+    print(i, i[0], i[1])
+```
+
+## loop com enumerate e unpacking
+```python
 for indice, idade in enumerate(idades): 
     # unpacking da tupla gravando indice e idade
     print(indice, idade)
+
 variable_name1 = ("Algum nome1", 31, 1981)
 variable_name2 = ("Algum nome2", 21, 1990)
 lista_de_tuplas = [variable_name1, variable_name2]
