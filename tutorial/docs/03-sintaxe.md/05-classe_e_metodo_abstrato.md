@@ -39,7 +39,7 @@ conta2 = ContaComPassaMes(2)
 lista_de_contas = [conta1, conta2]
 for conta in lista_de_contas:
     # Tanto ContaCorrente quanto ContaPoupanca possuem
-    # o método "passa_o_mes" pois o herdaram.
+    # o método "passa_o_mes" pois o definiram.
     conta.passa_o_mes()
-# Erro em Runtime
-contaComErro = ConstaSemPassaMes(3)
+# Erro em Runtime - ConstaSemPassaMes deveria ter implementado o método "passa_o_mes" mas não o fez.
+contaComRuntimeErro = ConstaSemPassaMes(3)
