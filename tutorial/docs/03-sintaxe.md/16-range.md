@@ -19,4 +19,6 @@ for contador in range(3, 10):
 ```python
 for contador in range(3, 10, 2):
     print(contador) # 3, 5, 7, 9
+for contador in range(3, 11, 2):
+    print(contador) # 3, 5, 7, 9
 ```  
