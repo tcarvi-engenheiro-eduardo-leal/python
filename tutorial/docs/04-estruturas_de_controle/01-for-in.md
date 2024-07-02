@@ -69,14 +69,17 @@ for i in enumerate(idades):
     # (5, 37)
 ``` 
 
-## Python code sem enumerate
+## loop com range(len(indexed_object))
 ```python
 idades = [15, 87, 32, 45, 67, 37]
 for i in range(len(idades)):
+    # range(len(XXX)) gera uma sequência de 0 até length-1. 
+    # Assim, i da sequência pode ser usado no loop.
     print(i, idades[i])
 
 ``` 
-## Python code com enumerate
+
+## loop com enumerate
 - Use `enumerate` para ter dados com um index numérico.
 ```python
 idades = [15, 87, 32, 45, 67, 37]
