@@ -36,7 +36,7 @@ class ClasseFilho2(ClassePai):
         self._codigo -= 3
 ```  
 
-## Exemplo de Herança
+## Execução de método abstrato implementado
 ```python  
 conta1 = ContaCorrente()
 conta2 = ContaPoupanca()
