@@ -1,6 +1,6 @@
 # Herança em classes
 ## Implementação:
-1. Indique o nome da ClassePai como parâmetrom, na definição da ClasseFilho
+1. Indique o nome da ClassePai como parâmetro, na definição da ClasseFilho
     - Ex.:
         - class ContaPoupanca(Conta)
         - class ContaCorrente(Conta)
