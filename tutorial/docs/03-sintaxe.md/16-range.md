@@ -4,6 +4,8 @@
 - range(stop)
     - Padrão de start = 0
     - Padrão de step = 1
+- range(start, stop)
+    - Padrão de step = 1
 - range(start, stop, step)
 
 ```python
