@@ -32,7 +32,7 @@ class ConstaSemPassaMes(Conta):
     ...  
 ```  
 
-## Exemplo de Herança
+## Execução de Método Abstrato Implementado
 ```python  
 conta1 = ContaComPassaMes(1)
 conta2 = ContaComPassaMes(2)
