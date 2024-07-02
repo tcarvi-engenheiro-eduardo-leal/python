@@ -13,6 +13,8 @@ new_generator = (x for x in tuple_name if x in 'abc') # generator comprehension
 # DEFINIÇÃO DE TUPLE segue fluxo diferente do usado 
 #        em list e em set pois tuplas são imutáveis.
 new_tuple = tuple(new_generator) 
+
+print(new_tuple)
 # new_tuple = ("a", "b")
 ```
 

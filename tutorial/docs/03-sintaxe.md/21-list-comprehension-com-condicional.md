@@ -11,7 +11,8 @@ new_list = [x for x in list_name if "a" in x] # List comprehension
 # item in iterable: x in list_name
 # optional condition: if "a" in x
 
+print(new_list)
 # new_list = ["apple", "banana"]
 ```  
 
-- Obs. Iterable pode se `tuple` ou `set` ou `list`. Até mesmo o `dict` pode ser usado como iterable.
+- Obs. Iterable pode se `tuple` ou `set` ou `list`. Até mesmo o `dict_name.items()` pode ser usado como iterable.

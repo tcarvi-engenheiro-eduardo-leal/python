@@ -11,6 +11,7 @@ new_set = {x for x in set_name if x not in 'abc'} # set comprehension
 # item in iterable: x in set_name
 # optional condition: if x not in 'abc'
 
+print(new_set)
 # new_set = {"c"}
 ```  
 
