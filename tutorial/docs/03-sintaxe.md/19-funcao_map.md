@@ -19,6 +19,5 @@ print(list(x)) # [5, 6, 6]
 ```python 
 # map(lambda variavel_representante_do_input: expr_processamento_input, iteravel_com_os_inputs_a_serem_usados)
 map_variable = map(lambda x : x + 2, [1, 2, 3])
-print(map_variable)
-print(list(map_variable))
+print(list(map_variable)) # Imprime [3, 4, 5]
 ```
