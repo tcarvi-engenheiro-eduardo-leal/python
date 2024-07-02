@@ -18,12 +18,13 @@ print(x(5, 6))  # retorna 30
 - Por exemplo:  
 ```python
 def myfunc(n):
-  return lambda a : a * n
+  return lambda a : a * n # O parâmetro n torna-se um valor fixo, não variável, na função retornada.
 
-mydoubler = myfunc(2)
-mytripler = myfunc(3)
+mydoubler = myfunc(2) # n==2 passa a ser um valor fixo, não variável, na função mydoubler
+mytripler = myfunc(3) # n==3 passa a ser um valor fixo, não variável, na função mytripler
 
-print(mydoubler(11))
-print(mytripler(11))
+# Lógica relevante!
+print(mydoubler(11)) # O parâmetro passado aqui é o a, da função anônima criada por lambda
+print(mytripler(11)) # O parâmetro passado aqui é o a, da função anônima criada por lambda
 ```  
 - Neste exemplo, usa-se lambda para que se definir 2 funções diferentes definidas no momento da chamada.
