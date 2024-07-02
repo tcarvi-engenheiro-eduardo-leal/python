@@ -1,4 +1,4 @@
-# Tuple comprehension com condicional
+# Generator comprehension com condicional para tuple
 
 - Condicional no final do código
 ```python
