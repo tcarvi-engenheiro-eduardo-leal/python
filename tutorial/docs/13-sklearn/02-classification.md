@@ -20,8 +20,10 @@
     - `X_tipo2_1 = [1, 1, 1]`
     - `X_tipo2_2 = [0, 0, 1]`
     - `X_tipo2_3 = [0, 1, 0]`
+- Treinar
 - Definir dados com os resultados esperados
-- Treinar com base na lista de dados e nos resultados esperados
+- Testar dados conhecidos e definidos anteriormente
+- Treinar novamente com os novos dados dos resultados esperados
 - Previsão com algoritmos de classificação
     - Estimadores do sklearn
 - Verificar acurácia
