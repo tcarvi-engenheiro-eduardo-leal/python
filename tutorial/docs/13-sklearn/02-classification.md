@@ -7,7 +7,7 @@
         - Cada feature com valor 0 ou 1. 
         - Valor 0 indica que o dado não tem a feature
         - Valor 1 indica que o dado tem a feature
-        - `dado = [Feature1, Feature2, Feature3]`
+        - `dado = [has_feature1, has_feature2, has_feature3]`
 - Definir uma lista com dados para treino
     - Exemplo: 
         - `dado_tipo1_1 = [1, 1, 1]`
