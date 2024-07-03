@@ -1,1 +1,1 @@
-# Visão geral da Biblioteca Matplotlib
+# Visão geral da Biblioteca Scipy
