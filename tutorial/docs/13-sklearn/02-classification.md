@@ -13,13 +13,13 @@
             - Valor 1 indica que o dado tem a feature
         - Definição do modelo:
             - `X = [x1, x2, x3]`
-- Definir uma lista com dados para treino, seguindo o modelo definido anteriormente.
-    - `dado_tipo1_1 = [1, 1, 1]`
-    - `dado_tipo1_2 = [0, 0, 1]`
-    - `dado_tipo1_3 = [0, 1, 0]`
-    - `dado_tipo2_1 = [1, 1, 1]`
-    - `dado_tipo2_1 = [0, 0, 1]`
-    - `dado_tipo2_1 = [0, 1, 0]`
+- Definir dados reais para treino, seguindo o modelo definido anteriormente.
+    - `X_tipo1_1 = [1, 1, 1]`
+    - `X_tipo1_2 = [0, 0, 1]`
+    - `X_tipo1_3 = [0, 1, 0]`
+    - `X_tipo2_1 = [1, 1, 1]`
+    - `X_tipo2_2 = [0, 0, 1]`
+    - `X_tipo2_3 = [0, 1, 0]`
 - Definir dados com os resultados esperados
 - Treinar com base na lista de dados e nos resultados esperados
 - Previsão com algoritmos de classificação
