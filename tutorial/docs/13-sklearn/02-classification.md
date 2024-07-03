@@ -31,7 +31,7 @@
             - Taxa de erros
 - Retreinamento:
     - Treinar novamente com os novos dados dos "resultados esperados".
-    - Se necessário, aumentar a quantidade de dados do treino e retestar.
+    - Se necessário, devido problema nos testes anteriores, aumentar a quantidade de dados do treino e retestar.
 
 ```python
 var1 = [1, 0, 1]
