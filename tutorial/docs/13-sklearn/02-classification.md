@@ -32,6 +32,8 @@
 - Retreinamento:
     - Treinar novamente com os novos dados dos "resultados esperados".
     - Se necessário, devido problema nos testes anteriores, aumentar a quantidade de dados do treino e retestar.
+- Otimizar o algoritmo de classificação
+- Prever a classificação
 
 ```python
 var1 = [1, 0, 1]
