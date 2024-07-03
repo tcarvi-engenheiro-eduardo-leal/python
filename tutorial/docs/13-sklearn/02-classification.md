@@ -36,6 +36,23 @@
 - Prever a classificação
 
 ```python
-var1 = [1, 0, 1]
+# Dados Reais para Treinamento 1
+porco1 = [0, 1, 0]
+porco2 = [0, 1, 1]
+porco3 = [1, 1, 0]
+cachorro1 = [0, 1, 1]
+cachorro2 = [1, 0, 1]
+cachorro3 = [1, 1, 1]
 
+# Lista com dados reais
+dados_reais = [porco1, porco2, porco3, cachorro1, cachorro2, cachorro3]
+# Classe com respostas esperadas
+# 0 ou 1 não se referem mais à x1, x2 ou x3.
+# 0 significa porco
+# 1 significa cachorro
+classes_dos_dados_reais = [0, 0, 0, 1, 1, 1]
+
+from sklearn.svm import LinearSVC
+model = LinearSVC()
+model.fit(dados_reais, classes_dos_dados_reais)
 ```
