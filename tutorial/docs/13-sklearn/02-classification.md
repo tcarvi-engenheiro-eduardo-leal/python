@@ -20,16 +20,18 @@
     - `X_tipo2_1 = [1, 1, 1]`
     - `X_tipo2_2 = [0, 0, 1]`
     - `X_tipo2_3 = [0, 1, 0]`
-- Treinar
-- Definir novo conjunto de dados reais e identificar como "resultados esperados".
-- Testar o novo conjunto de dados reais definidos anteriormente.
-- Treinar novamente com os novos dados dos "resultados esperados".
-    - Se necessário, retestar e aumentar a quantidade de dados do treino.
-- Previsão com algoritmos de classificação
-    - Estimadores do sklearn
-- Verificar acurácia
-    - Taxa de acerto
-    - Taxa de erros
+- Treinamento:
+    - Treinar com os dados reais
+- Testes:
+    - Definir novo conjunto de dados reais e identificar como "resultados esperados".
+    - Testar o novo conjunto de dados reais definidos anteriormente.
+        - Classificar com Algoritmos Estimadores do sklearn
+        - Verificar acurácia da classificação
+            - Taxa de acerto
+            - Taxa de erros
+- Retreinamento:
+    - Treinar novamente com os novos dados dos "resultados esperados".
+    - Se necessário, aumentar a quantidade de dados do treino e retestar.
 
 ```python
 var1 = [1, 0, 1]
