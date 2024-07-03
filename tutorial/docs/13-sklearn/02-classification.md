@@ -5,9 +5,9 @@
     - Modelo: 
         - X=Dado=Item=Container_de_features, no formato de list.
         - Cada X possui 3 features [x1, x2,  x3].
-            - x1 significa a existência ou não de uma feature A.
-            - x2 significa a existência ou não de uma feature B.
-            - x3 significa a existência ou não de uma feature C.
+            - x1 indica a existência ou não de uma feature A.
+            - x2 indica a existência ou não de uma feature B.
+            - x3 indica a existência ou não de uma feature C.
         - Cada feature pode ter valor 0 ou 1. 
             - Valor 0 indica que X não tem a feature
             - Valor 1 indica que o dado tem a feature
