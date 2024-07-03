@@ -50,9 +50,15 @@ dados_reais = [porco1, porco2, porco3, cachorro1, cachorro2, cachorro3]
 # 0 ou 1 não se referem mais à x1, x2 ou x3.
 # 0 significa porco
 # 1 significa cachorro
-classes_dos_dados_reais = [0, 0, 0, 1, 1, 1]
+classe_dos_dados_reais = [0, 0, 0, 1, 1, 1]
 
 from sklearn.svm import LinearSVC
 model = LinearSVC()
-model.fit(dados_reais, classes_dos_dados_reais)
+model.fit(dados_reais, classe_dos_dados_reais)
+
+animal_misteriso = [1, 1, 1] # Eu sei que o animal é cachorro.
+
+# Teste
+model.predict(animal_misteriso)
+# Certo ou errado?
 ```
