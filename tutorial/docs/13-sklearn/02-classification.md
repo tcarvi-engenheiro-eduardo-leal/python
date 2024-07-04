@@ -27,11 +27,11 @@
     - Código python:
     ```python
     # Processamento matemático: f(X) = Y
-    X_dados_reais_para_treino = [item_p_1, item_p_2, item_p_3, item_q_1, item_q_2, item_q_3]
-    classe_dos_dados_reais = [0, 0, 0, 1, 1, 1] # Nesta classificação, 0 significa item_p e 1 significa item_q.
+    x_dados_reais_para_treino = [item_p_1, item_p_2, item_p_3, item_q_1, item_q_2, item_q_3]
+    y_classe_dos_dados_reais = [0, 0, 0, 1, 1, 1] # Nesta classificação, 0 significa item_p e 1 significa item_q.
     from sklearn.svm import LinearSVC
     modelo_estimador = LinearSVC()
-    modelo_estimador.fit(X_dados_reais_para_treino, classe_dos_dados_reais)
+    modelo_estimador.fit(x_dados_reais_para_treino, y_classe_dos_dados_reais)
     ```  
     - Sistema de "Machine Learning" passa a ter conhecimento dos dados usados no treino.
     - Estimador do "Machine Learning" já pode tentar classificar.
@@ -46,8 +46,8 @@
     - Estimar com Algoritmos Estimadores do modelo sklearn
         - Código python:
         ```python
-        dados_teste = [animal_misterisoA, animal_misterisoB, animal_misterisoC]
-        previsoes = modelo_estimador.predict(dados_teste)
+        x_dados_teste = [animal_misterisoA, animal_misterisoB, animal_misterisoC]
+        y_previsoes = modelo_estimador.predict(dados_teste)
         # Sistema retorna previsoes como um NumpyArray = array([0, 1, 0]), nos informando que:
         # animal_misterisoA é do tipo P
         # animal_misterisoB é do tipo Q
