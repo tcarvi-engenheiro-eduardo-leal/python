@@ -27,11 +27,11 @@
     - Código python:
     ```python
     # Processamento matemático: f(X) = Y
-    x_dados_reais_para_treino = [item_p_1, item_p_2, item_p_3, item_q_1, item_q_2, item_q_3]
-    y_classe_dos_dados_reais = [0, 0, 0, 1, 1, 1] # Nesta classificação, 0 significa item_p e 1 significa item_q.
+    train_x = [item_p_1, item_p_2, item_p_3, item_q_1, item_q_2, item_q_3]
+    train_y = [0, 0, 0, 1, 1, 1] # Nesta classificação, 0 significa item_p e 1 significa item_q.
     from sklearn.svm import LinearSVC
     modelo_estimador = LinearSVC()
-    modelo_estimador.fit(x_dados_reais_para_treino, y_classe_dos_dados_reais)
+    modelo_estimador.fit(train_x, train_y)
     ```  
     - Sistema de "Machine Learning" passa a ter conhecimento dos dados usados no treino.
     - Estimador do "Machine Learning" já pode tentar classificar.
