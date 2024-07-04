@@ -28,7 +28,7 @@
     ```python
     # Processamento matemático: f(X) = Y
     train_x = [item_p_1, item_p_2, item_p_3, item_q_1, item_q_2, item_q_3]
-    train_y = [0, 0, 0, 1, 1, 1] # Nesta classificação, 0 significa item_p e 1 significa item_q.
+    train_y = [0, 0, 0, 1, 1, 1] # labels: 0 significa item_p e 1 significa item_q.
     from sklearn.svm import LinearSVC
     modelo_estimador = LinearSVC()
     modelo_estimador.fit(train_x, train_y)
@@ -46,8 +46,10 @@
     - Estimar com Algoritmos Estimadores do modelo sklearn
         - Código python:
         ```python
-        x_dados_teste = [animal_misterisoA, animal_misterisoB, animal_misterisoC]
-        y_previsoes = modelo_estimador.predict(dados_teste)
+        test_x = [animal_misterisoA, animal_misterisoB, animal_misterisoC]
+        test_y = [0, 1, 1] # Resultados Esperados # Labels reais
+        # Gera Previsões
+        previsoes = modelo_estimador.predict(test_x)
         # Sistema retorna previsoes como um NumpyArray = array([0, 1, 0]), nos informando que:
         # animal_misterisoA é do tipo P
         # animal_misterisoB é do tipo Q
@@ -56,21 +58,18 @@
     - Verificar acurácia da estimativa
         - Código python:
         ```python
-        resultados_esperados = [0, 1, 1]
-        verificacao = (resultados_esperados == previsoes)
+        # Identificação de taxa de acerto sem biblioteca accuracy_score
+        verificacao = (test_y == previsoes)
         # verificacao retorna array([True, True, False])
         # Sistema acertou na primeira e segunda estimativa. Mas errou na terceira.
-
         #Taxa de acerto
         corretos = verificacao.sum() # Número que quantidades de True
         taxa_de_acerto = corretos / len(verificacao)
-        # Usando sklearn para identificar taxa de acerto...
-        from sklearn.metrics import accuracy_score
-        taxa_de_acerto = accuracy_score(resultados_esperados, previsoes) * 100
-        print("Taxa de acerto: %.2f" %(taxa_de_acerto))
-        # Taxa de erros
-        taxa_de_erros = (resultados_esperados == previsoes)
 
+        ## Identificação de taxa de acerto com biblioteca accuracy_score de sklearn.metrics
+        from sklearn.metrics import accuracy_score
+        taxa_de_acerto = accuracy_score(test_y, previsoes) * 100
+        print("Taxa de acerto: %.2f" %(taxa_de_acerto))
         ```
 - Retreinamento:
     - Treinar novamente com os novos dados dos "resultados esperados".
