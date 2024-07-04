@@ -16,18 +16,18 @@
 - Definir dados reais para treino, seguindo o modelo definido anteriormente.
     - Código python:
     ```python
-    X_tipo1_1 = [1, 1, 1]
-    X_tipo1_2 = [0, 0, 1]
-    X_tipo1_3 = [0, 1, 0]
-    X_tipo2_1 = [1, 1, 1]
-    X_tipo2_2 = [0, 0, 1]
-    X_tipo2_3 = [0, 1, 0]
+    X_tipoP_1 = [1, 1, 1]
+    X_tipoP_2 = [0, 0, 1]
+    X_tipoP_3 = [0, 1, 0]
+    X_tipoQ_1 = [1, 1, 1]
+    X_tipoQ_2 = [0, 0, 1]
+    X_tipoQ_3 = [0, 1, 0]
     ```
 - Treinar com os dados reais
     - Código python:
     ```python
-    dados_reais_para_treino = [X_tipo1_1, X_tipo1_2, X_tipo1_3, X_tipo2_1, X_tipo2_2, X_tipo2_3]
-    classe_dos_dados_reais = [0, 0, 0, 1, 1, 1]
+    dados_reais_para_treino = [X_tipoP_1, X_tipoP_2, X_tipoP_3, X_tipoQ_1, X_tipoQ_2, X_tipoQ_3]
+    classe_dos_dados_reais = [0, 0, 0, 1, 1, 1] # Nesta classificação, 0 significa tipoP e 1 significa tipoQ.
     from sklearn.svm import LinearSVC
     modelo_estimador = LinearSVC()
     modelo_estimador.fit(dados_reais_para_treino, classe_dos_dados_reais)
@@ -38,11 +38,14 @@
     - Definir novo conjunto de dados reais e identificar como "resultados esperados".
     - Código python:
     ```python
-    animal_misteriso = [1, 1, 1] # Eu sei que o animal é cachorro mas não informo para aplicativo.
+    animal_misteriso = [1, 1, 1] # Eu sei que o animal é tipoP mas não informo para aplicativo.
     ```  
-    - Testar o novo conjunto de dados reais definidos anteriormente.
-        - Classificar com Algoritmos Estimadores do sklearn
-        - Verificar acurácia da classificação
+    - Estimar com Algoritmos Estimadores do modelo sklearn
+        - Código python:
+        ```python
+        modelo_estimador.predict([animal_misteriso])
+        ```  
+    - Verificar acurácia da estimativa
             - Taxa de acerto
             - Taxa de erros
 - Retreinamento:
