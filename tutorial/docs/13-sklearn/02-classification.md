@@ -14,18 +14,32 @@
         - Definição do modelo:
             - `X = [x1, x2, x3]`
 - Definir dados reais para treino, seguindo o modelo definido anteriormente.
-    - `X_tipo1_1 = [1, 1, 1]`
-    - `X_tipo1_2 = [0, 0, 1]`
-    - `X_tipo1_3 = [0, 1, 0]`
-    - `X_tipo2_1 = [1, 1, 1]`
-    - `X_tipo2_2 = [0, 0, 1]`
-    - `X_tipo2_3 = [0, 1, 0]`
-- Treinamento:
-    - Treinar com os dados reais
-    - Sistema de "Machine Learning" passou a ter conhecimento dos dados usados no treino.
+    - Código python:
+    ```python
+    X_tipo1_1 = [1, 1, 1]
+    X_tipo1_2 = [0, 0, 1]
+    X_tipo1_3 = [0, 1, 0]
+    X_tipo2_1 = [1, 1, 1]
+    X_tipo2_2 = [0, 0, 1]
+    X_tipo2_3 = [0, 1, 0]
+    ```
+- Treinar com os dados reais
+    - Código python:
+    ```python
+    dados_reais_para_treino = [X_tipo1_1, X_tipo1_2, X_tipo1_3, X_tipo2_1, X_tipo2_2, X_tipo2_3]
+    classe_dos_dados_reais = [0, 0, 0, 1, 1, 1]
+    from sklearn.svm import LinearSVC
+    modelo_estimador = LinearSVC()
+    modelo_estimador.fit(dados_reais_para_treino, classe_dos_dados_reais)
+    ```  
+    - Sistema de "Machine Learning" passa a ter conhecimento dos dados usados no treino.
     - Estimador do "Machine Learning" já pode tentar classificar.
 - Testes:
     - Definir novo conjunto de dados reais e identificar como "resultados esperados".
+    - Código python:
+    ```python
+    animal_misteriso = [1, 1, 1] # Eu sei que o animal é cachorro mas não informo para aplicativo.
+    ```  
     - Testar o novo conjunto de dados reais definidos anteriormente.
         - Classificar com Algoritmos Estimadores do sklearn
         - Verificar acurácia da classificação
@@ -55,12 +69,12 @@ dados_reais = [porco1, porco2, porco3, cachorro1, cachorro2, cachorro3]
 classe_dos_dados_reais = [0, 0, 0, 1, 1, 1]
 
 from sklearn.svm import LinearSVC
-model = LinearSVC()
-model.fit(dados_reais, classe_dos_dados_reais)
+modelo_estimador = LinearSVC()
+modelo_estimador.fit(dados_reais, classe_dos_dados_reais)
 
 animal_misteriso = [1, 1, 1] # Eu sei que o animal é cachorro.
 
 # Teste
-model.predict(animal_misteriso)
+modelo_estimador.predict(animal_misteriso)
 # Certo ou errado?
 ```
