@@ -46,6 +46,7 @@
     - Estimar com Algoritmos Estimadores do modelo sklearn
         - Código python:
         ```python
+        # Processamento matemático: f(X) = previsões
         test_x = [animal_misterisoA, animal_misterisoB, animal_misterisoC]
         test_y = [0, 1, 1] # Resultados Esperados # Labels reais
         # Gera Previsões
