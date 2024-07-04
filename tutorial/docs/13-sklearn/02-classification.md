@@ -38,16 +38,39 @@
     - Definir novo conjunto de dados reais e identificar como "resultados esperados".
     - Código python:
     ```python
-    animal_misteriso = [1, 1, 1] # Eu sei que o animal é tipoP mas não informo para aplicativo.
+    animal_misterisoA = [1, 1, 1] # Eu sei que o animal é tipoP mas não informo para aplicativo.
+    animal_misterisoB = [1, 1, 0] # Eu sei que o animal é tipoQ mas não informo para aplicativo.
+    animal_misterisoC = [0, 1, 1] # Eu sei que o animal é tipoQ mas não informo para aplicativo.
     ```  
     - Estimar com Algoritmos Estimadores do modelo sklearn
         - Código python:
         ```python
-        modelo_estimador.predict([animal_misteriso])
+        dados_teste = [animal_misterisoA, animal_misterisoB, animal_misterisoC]
+        previsoes = modelo_estimador.predict(dados_teste)
+        # Sistema retorna previsoes como um NumpyArray = array([0, 1, 0]), nos informando que:
+        # animal_misterisoA é do tipo P
+        # animal_misterisoB é do tipo Q
+        # animal_misterisoC é do tipo P
         ```  
     - Verificar acurácia da estimativa
-            - Taxa de acerto
-            - Taxa de erros
+        - Código python:
+        ```python
+        resultados_esperados = [0, 1, 1]
+        verificacao = (resultados_esperados == previsoes)
+        # verificacao retorna array([True, True, False])
+        # Sistema acertou na primeira e segunda estimativa. Mas errou na terceira.
+
+        #Taxa de acerto
+        corretos = verificacao.sum() # Número que quantidades de True
+        taxa_de_acerto = corretos / len(verificacao)
+        # Usando sklearn para identificar taxa de acerto...
+        from sklearn.metrics import accuracy_score
+        taxa_de_acerto = accuracy_score(resultados_esperados, previsoes) * 100
+        print("Taxa de acerto: %.2f" %(taxa_de_acerto))
+        # Taxa de erros
+        taxa_de_erros = (resultados_esperados == previsoes)
+
+        ```
 - Retreinamento:
     - Treinar novamente com os novos dados dos "resultados esperados".
     - Se necessário, devido problema nos testes anteriores, aumentar a quantidade de dados do treino e retestar.
