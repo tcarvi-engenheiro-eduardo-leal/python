@@ -65,11 +65,12 @@
         #Taxa de acerto
         corretos = verificacao.sum() # Número que quantidades de True
         taxa_de_acerto = corretos / len(verificacao)
+        print("Taxa de acerto: %.2f" %(taxa_de_acerto * 100))
 
         ## Identificação de taxa de acerto com biblioteca accuracy_score de sklearn.metrics
         from sklearn.metrics import accuracy_score
-        taxa_de_acerto = accuracy_score(test_y, previsoes) * 100
-        print("Taxa de acerto: %.2f" %(taxa_de_acerto))
+        taxa_de_acerto = accuracy_score(test_y, previsoes)
+        print("Taxa de acerto: %.2f" %(taxa_de_acerto * 100))
         ```
 - Retreinamento:
     - Treinar novamente com os novos dados dos "resultados esperados".
