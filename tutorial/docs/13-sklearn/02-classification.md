@@ -9,8 +9,8 @@
             - Feature2 indica a existência ou não da feature 2.
             - Feature3 indica a existência ou não da feature 3.
         - Cada feature pode ter valor 0 ou 1. 
-            - Valor 0 indica que X não tem a feature
-            - Valor 1 indica que o dado tem a feature
+            - Valor 0 indica que o item **NÃO POSSUI** a feature
+            - Valor 1 indica que o item **POSSUI** a feature
         - Definição do modelo:
             - `Modelo = [Feature1, Feature2, Feature3]`
 - Definir dados reais para treino, seguindo o modelo definido anteriormente.
