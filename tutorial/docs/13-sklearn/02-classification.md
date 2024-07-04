@@ -1,7 +1,7 @@
 # Classification
 
 ## Etapas
-- Definir um modelo de treino
+- Definir um modelo para o treino
     - Modelo: 
         - X=Dado=Item=Container_de_features, no formato de list.
         - Cada X possui 3 features [x1, x2,  x3].
@@ -22,6 +22,8 @@
     - `X_tipo2_3 = [0, 1, 0]`
 - Treinamento:
     - Treinar com os dados reais
+    - Sistema de "Machine Learning" passou a ter conhecimento dos dados usados no treino.
+    - Estimador do "Machine Learning" já pode tentar classificar.
 - Testes:
     - Definir novo conjunto de dados reais e identificar como "resultados esperados".
     - Testar o novo conjunto de dados reais definidos anteriormente.
